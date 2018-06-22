@@ -12,8 +12,8 @@ library(elo)
 library(lubridate)
 library(MLmetrics)
 
-# Read in the world cup CSV data
-rawdata = read_csv("wc_datathon_dataset.csv")
+# Read in the world cup CSV data from out github page
+rawdata = read_csv("https://raw.githubusercontent.com/betfair-datascientists/Predictive-Models/master/World-Cup-2018/data/wc_datathon_dataset.csv?_sm_au_=iVV7ZLQVWLNsk7WQ")
 
 # Convert the match date to an R date
 rawdata$date = dmy(rawdata$date)
@@ -98,10 +98,11 @@ final = wc_2014 %>%
   ) %>%
   select(-team_1_goals, -team_2_goals)
 
-
 # Calculate the log-loss for this tournament
 MultiLogLoss(
   y_pred = final[,c("home_prob", "draw_prob", "away_prob")] %>% as.matrix(),
   y_true = final[,c("home_actual", "draw_actual", "away_actual")] %>% as.matrix()
 )
 
+# Achieved a log loss of: 1.02166
+# Not bad for a very simple attempt
