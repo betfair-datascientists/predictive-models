@@ -1,0 +1,49 @@
+date,match_id,team_1,team_2,prob_team_1_win,prob_team_1_draw,prob_team_1_lose
+14/06/2018,a_1,russia,saudi arabia,0.42,0.32,0.26
+15/06/2018,a_2,egypt,uruguay,0.42,0.32,0.26
+15/06/2018,b_1,morocco,iran,0.42,0.32,0.26
+15/06/2018,b_2,portugal,spain,0.42,0.32,0.26
+16/06/2018,c_1,france,australia,0.42,0.32,0.26
+16/06/2018,d_1,argentina,iceland,0.42,0.32,0.26
+16/06/2018,c_2,peru,denmark,0.42,0.32,0.26
+16/06/2018,d_2,croatia,nigeria,0.42,0.32,0.26
+17/06/2018,e_1,costa rica,serbia,0.42,0.32,0.26
+17/06/2018,f_1,germany,mexico,0.42,0.32,0.26
+17/06/2018,e_2,brazil,switzerland,0.42,0.32,0.26
+18/06/2018,f_2,sweden,korea republic,0.42,0.32,0.26
+18/06/2018,g_1,belgium,panama,0.42,0.32,0.26
+18/06/2018,g_2,tunisia,england,0.42,0.32,0.26
+19/06/2018,h_1,colombia,japan,0.42,0.32,0.26
+19/06/2018,h_2,poland,senegal,0.42,0.32,0.26
+19/06/2018,a_3,russia,egypt,0.42,0.32,0.26
+20/06/2018,b_3,portugal,morocco,0.42,0.32,0.26
+20/06/2018,a_4,uruguay,saudi arabia,0.42,0.32,0.26
+20/06/2018,b_4,iran,spain,0.42,0.32,0.26
+21/06/2018,c_3,denmark,australia,0.42,0.32,0.26
+21/06/2018,c_4,france,peru,0.42,0.32,0.26
+21/06/2018,d_3,argentina,croatia,0.42,0.32,0.26
+22/06/2018,e_3,brazil,costa rica,0.42,0.32,0.26
+22/06/2018,d_4,nigeria,iceland,0.42,0.32,0.26
+22/06/2018,e_4,serbia,switzerland,0.42,0.32,0.26
+23/06/2018,g_3,belgium,tunisia,0.42,0.32,0.26
+23/06/2018,f_3,korea republic,mexico,0.42,0.32,0.26
+23/06/2018,f_4,germany,sweden,0.42,0.32,0.26
+24/06/2018,g_4,england,panama,0.42,0.32,0.26
+24/06/2018,h_3,japan,senegal,0.42,0.32,0.26
+24/06/2018,h_4,poland,colombia,0.42,0.32,0.26
+25/06/2018,a_5,uruguay,russia,0.42,0.32,0.26
+25/06/2018,a_6,saudi arabia,egypt,0.42,0.32,0.26
+25/06/2018,b_5,iran,portugal,0.42,0.32,0.26
+25/06/2018,b_6,spain,morocco,0.42,0.32,0.26
+26/06/2018,c_5,denmark,france,0.42,0.32,0.26
+26/06/2018,c_6,australia,peru,0.42,0.32,0.26
+26/06/2018,d_5,nigeria,argentina,0.42,0.32,0.26
+26/06/2018,d_6,iceland,croatia,0.42,0.32,0.26
+27/06/2018,f_5,mexico,sweden,0.42,0.32,0.26
+27/06/2018,f_6,korea republic,germany,0.42,0.32,0.26
+27/06/2018,e_5,serbia,brazil,0.42,0.32,0.26
+27/06/2018,e_6,switzerland,costa rica,0.42,0.32,0.26
+28/06/2018,h_5,japan,poland,0.42,0.32,0.26
+28/06/2018,h_6,senegal,colombia,0.42,0.32,0.26
+28/06/2018,g_5,panama,tunisia,0.42,0.32,0.26
+28/06/2018,g_6,england,belgium,0.42,0.32,0.26
