@@ -1,8 +1,8 @@
 # Predictive Models
 This repo includes some of the Data Scientist team's open source predictive models, of which predictions are posted on the Hub. Models are produced in both R and Python.
 
-# Aim
+## Aim
 This repo aims to educate the Betfair community on creating your own end-to-end models to predict sport. It will be extremely informative and descriptive; the goal is for those without much coding experience to be able to read through the process and understand what is being done.
 
-# Links to Current Predictions
+## Links to Current Predictions
 * [Greyhound Rating Model Predictions](https://www.betfair.com.au/hub/tools/models/greyhound-ratings-model/)
