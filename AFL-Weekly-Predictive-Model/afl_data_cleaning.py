@@ -32,10 +32,9 @@ def odds_wrangling(df):
     # Grab the home and away teams using regex from the match_results column
     df['home_team'] = df['path'].str.extract('(([\w\s]+) v ([\w\s]+))', expand=True)[1].str.strip()
     df['away_team'] = df['path'].str.extract('(([\w\s]+) v ([\w\s]+))', expand=True)[2].str.strip()
-    df['match_details'] = df['path'].str.extract('(([\w\s]+) v ([\w\s]+))', expand=True)[0].str.strip()
     
     # Drop unneeded columns
-    df = df.drop(columns=['path', 'trunc', 'event_name', 'match_details'])
+    df = df.drop(columns=['path', 'trunc', 'event_name'])
     
     # Rename column
     df = df.rename(columns={'selection_name': 'Team'})
