@@ -28,7 +28,9 @@ preds
 ```
 
 ## Requirements
-There are a few requirements to run the predictive scripts and walk through the interactive tutorials. Your best bet is to install these from the following links, if you haven't already.
+There are a few requirements to run the predictive scripts and walk through the interactive tutorials on your local computer. 
+
+If you are happy to read through the tutorials on Github, but not run the code yourself, you simply need to click the tutorial links and the tutorial can be viewed in your browser. However, if you are keen to be able to run the code yourself and try different things out, you will need to install the following:
 * Python 
 * Jupyter Notebook (Installed through the Anaconda Distribution)
 
