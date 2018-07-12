@@ -14,16 +14,25 @@ The predictions below are created from the afl_modelling script. For a detailed 
 preds = afl_modelling.prepare_afl_predictions_df()
 preds
 '''
-          home_team    away_team Predicted Winner     home_elo     away_elo  \
-0            Sydney      Geelong           Sydney  1693.734358  1667.682944   
-1          Richmond     Adelaide         Richmond  1609.677631  1578.060630   
-2          Brisbane      Carlton         Brisbane  1233.037199  1280.164173   
-3     Port Adelaide     St Kilda    Port Adelaide  1589.121018  1400.692014   
-4  Western Bulldogs     Hawthorn         Hawthorn  1446.605223  1606.319440   
-5         Melbourne    Fremantle        Melbourne  1494.602682  1449.483864   
-6   North Melbourne   Gold Coast  North Melbourne  1472.379995  1285.335813   
-7          Essendon  Collingwood      Collingwood  1478.524824  1528.013453   
-8        West Coast          GWS       West Coast  1618.106496  1568.458243
+    Game        home_team         away_team Predicted Winner  home_odds  \
+0  15334         St Kilda           Carlton         St Kilda       1.40   
+1  15335         Hawthorn          Brisbane         Hawthorn       1.27   
+2  15336        Melbourne  Western Bulldogs        Melbourne       1.19   
+3  15337       Gold Coast          Essendon         Essendon       5.60   
+4  15338              GWS          Richmond         Richmond       2.84   
+5  15339      Collingwood        West Coast      Collingwood       1.44   
+6  15340  North Melbourne            Sydney           Sydney       2.22   
+7  15341        Fremantle     Port Adelaide    Port Adelaide       4.60   
+
+   away_odds     home_elo     away_elo  
+0       3.50  1422.699826  1249.516972  
+1       4.80  1601.212897  1264.807130  
+2       8.20  1489.199372  1463.143986  
+3       1.23  1293.271340  1496.279191  
+4       1.55  1583.093084  1623.317097  
+5       2.68  1508.140954  1592.391714  
+6       1.82  1472.869065  1662.752549  
+7       1.28  1426.443873  1583.704866  
 '''
 ```
 
