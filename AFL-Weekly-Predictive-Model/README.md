@@ -12,7 +12,7 @@ The predictions below are created from the afl_modelling script. For a detailed 
 ```Python
 # This week's predictions
 preds = afl_modelling.prepare_afl_predictions_df()
-preds
+print(preds)
 '''
        home_team         away_team Predicted Winner  home_odds  away_odds  \
 0       St Kilda          Richmond         Richmond       8.00       1.14   
@@ -53,6 +53,48 @@ If you don't already have Python installed, we advise you to install it through 
 If you are interested, feel free to explore the datasets on your own. The match results data dates back all the way to 1897, whilst the player statistics and odds data dates back to 2011.
 
 If you want to skip ahead to the feature creation tutorial, simply download the afl_data_cleaning script and move onto the next tutorial. This script will clean all the data for you in the next tutorial.
+
+Note: The columns used in these tutorials refer to the following statistics:
+
+```Python
+# Column abbreviations
+column_abbreviations = pd.read_csv("data/afl_data_columns_mapping.csv")
+print(column_abbreviations)
+'''
+   Feature Abbreviated                  Feature
+0                   GA             Goal Assists
+1                   CP    Contested Possessions
+2                   UP  Uncontested Possessions
+3                   ED      Effective Disposals
+4                   CM          Contested Marks
+5                  MI5          Marks Inside 50
+6       One.Percenters           One Percenters
+7                   BO                  Bounces
+8                    K                    Kicks
+9                   HB                Handballs
+10                   D                Disposals
+11                   M                    Marks
+12                   G                    Goals
+13                   B                  Behinds
+14                   T                  Tackles
+15                  HO                  Hitouts
+16                 I50               Inside 50s
+17                  CL               Clearances
+18                  CG                 Clangers
+19                 R50              Rebound 50s
+20                  FF                Frees For
+21                  FA            Frees Against
+22                  AF       AFL Fantasy Points
+23                  SC        Supercoach Points
+24                 CCL        Centre Clearances
+25                 SCL      Stoppage Clearances
+26                  SI       Score Involvements
+27                  MG            Metres Gained
+28                  TO                Turnovers
+29                 ITC               Intercepts
+30                  T5        Tackles Inside 50
+'''
+```
 
 ## AFL Feature Creation Tutorial
 [This tutorial](https://github.com/betfair-datascientists/Predictive-Models/blob/master/AFL-Weekly-Predictive-Model/02.%20afl_feature_creation_tutorial.ipynb) will take our cleaned data which we created in the previous tutorial by using the afl_data_cleaning script and create features to be used in modelling.
