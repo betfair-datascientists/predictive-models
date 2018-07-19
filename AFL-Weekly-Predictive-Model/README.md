@@ -1,11 +1,11 @@
 
 
 # AFL Weekly Predictive Model
-These tutorials will walk you through how to create your own basic AFL predictive model. We will use Python as our language of choice. The output will be odds for each team to win and the predicted winner, which will be shown on [The Hub](https://www.betfair.com.au/hub/tools/models/afl-prediction-model/) and posted below weekly.
+These tutorials will walk you through how to create your own basic AFL predictive model. We will use Python as our language of choice. The output will be the predicted winner for each game, which will be posted below weekly.
 
 For the interactive tutorials, download and walk through the Jupyter notebook files (.ipynb). If you want to jump ahead, we have also created scripts which prepare all the data from the previous tutorial. These are the (.py) files.
 
-The goal for future iterations of this tutorial is to create an automated betting strategy on Betfair using our predictions which we generated using Machine Learning and Betfair's API. Currently, the tutorial can predict the winner of future AFL games. Stay tuned for updates.
+The goal for future iterations of this tutorial is to change the output to output odds, which will then allow us to create automated betting strategy on Betfair. Currently, the tutorial can predict the winner of future AFL games. Stay tuned for updates.
 
 ## This Week's Predictions
 The predictions below are created from the afl_modelling script. For a detailed walkthrough of how we got these predictions, please have a look at the tutorials below.

@@ -283,9 +283,10 @@ def prepare_afl_predictions_df(estimator_list=all_estimators, best_cols=best_col
 
 	next_round_features = prepare_afl_prediction_set()
 
-	features = next_round_features.columns
+	features = next_round_features.drop(columns=['CCL_ave_6_diff', 'SCL_ave_6_diff', 'SI_ave_6_diff', 'MG_ave_6_diff', 'TO_ave_6_diff', 'ITC_ave_6_diff', 'T5_ave_6_diff', \
+		'home_elo_diff', 'away_elo_diff', 'elo_diff', 'elo_Opp_diff']).columns
 
-	preds_next_round = implement_xgb_stacking(X[features].drop(columns='Game'), y, next_round_features.drop(columns='Game'), all_estimators)
+	preds_next_round = implement_xgb_stacking(X[features].drop(columns='Game'), y, next_round_features[features].drop(columns='Game'), all_estimators)
 	
 	next_week_df = get_next_week_df(afl)
 
@@ -295,8 +296,10 @@ def prepare_afl_predictions_df(estimator_list=all_estimators, best_cols=best_col
 		})
 
 	final_df = pd.merge(preds_df, next_week_df[['home_team', 'away_team', 'Game']], on='Game')
-	final_df = pd.merge(final_df, next_round_features, on='Game')
-
+	final_df = pd.merge(final_df, next_round_features[features], on='Game')
+	final_df = final_df.drop_duplicates()
+	final_df['home_odds'] = 1 / final_df['implied_odds_prob']
+	final_df['away_odds'] = 1 / final_df['implied_odds_prob_away']
 	return final_df
 
 if __name__ == "__main__":
