@@ -10341,9 +10341,9 @@
 10340,1992-05-02,"R7","Collingwood",16,20,116,"North Melbourne",9,12,66,"Victoria Park",50,1992,"Regular",7
 10341,1992-05-02,"R7","Hawthorn",25,22,172,"Richmond",14,9,93,"Waverley Park",79,1992,"Regular",7
 10342,1992-05-02,"R7","Melbourne",13,18,96,"Sydney",13,18,96,"M.C.G.",0,1992,"Regular",7
-10343,1992-05-03,"R7","Brisbane Lions",11,9,75,"Geelong",37,17,239,"Carrara",-164,1992,"Regular",7
+10343,1992-05-03,"R7","Fitzroy",15,12,102,"West Coast",11,16,82,"North Hobart",20,1992,"Regular",7
 10344,1992-05-03,"R7","Footscray",18,20,128,"Carlton",11,6,72,"M.C.G.",56,1992,"Regular",7
-10345,1992-05-03,"R7","Fitzroy",15,12,102,"West Coast",11,16,82,"North Hobart",20,1992,"Regular",7
+10345,1992-05-03,"R7","Brisbane Lions",11,9,75,"Geelong",37,17,239,"Carrara",-164,1992,"Regular",7
 10346,1992-05-07,"R8","Collingwood",9,18,72,"Carlton",16,9,105,"M.C.G.",-33,1992,"Regular",8
 10347,1992-05-08,"R8","Sydney",19,21,135,"Brisbane Lions",8,13,61,"S.C.G.",74,1992,"Regular",8
 10348,1992-05-09,"R8","Geelong",32,18,210,"Adelaide",12,15,87,"Kardinia Park",123,1992,"Regular",8
@@ -15325,3 +15325,21 @@
 15324,2018-07-01,"R15","Melbourne",18,9,117,"St Kilda",18,11,119,"M.C.G.",-2,2018,"Regular",15
 15325,2018-07-01,"R15","Essendon",19,11,125,"North Melbourne",16,12,108,"Docklands",17,2018,"Regular",15
 15326,2018-07-01,"R15","Fremantle",9,10,64,"Brisbane Lions",18,11,119,"Perth Stadium",-55,2018,"Regular",15
+15327,2018-07-05,"R16","Sydney",9,5,59,"Geelong",8,23,71,"S.C.G.",-12,2018,"Regular",16
+15328,2018-07-06,"R16","Richmond",15,13,103,"Adelaide",8,8,56,"M.C.G.",47,2018,"Regular",16
+15329,2018-07-07,"R16","Brisbane Lions",18,12,120,"Carlton",7,13,55,"Gabba",65,2018,"Regular",16
+15330,2018-07-07,"R16","Port Adelaide",12,14,86,"St Kilda",7,8,50,"Adelaide Oval",36,2018,"Regular",16
+15331,2018-07-07,"R16","Footscray",9,5,59,"Hawthorn",19,8,122,"Docklands",-63,2018,"Regular",16
+15332,2018-07-07,"R16","Melbourne",13,24,102,"Fremantle",7,6,48,"Marrara Oval",54,2018,"Regular",16
+15333,2018-07-08,"R16","North Melbourne",14,11,95,"Gold Coast",8,10,58,"Docklands",37,2018,"Regular",16
+15334,2018-07-08,"R16","Essendon",9,8,62,"Collingwood",12,6,78,"M.C.G.",-16,2018,"Regular",16
+15335,2018-07-08,"R16","West Coast",13,8,86,"GWS",10,15,75,"Perth Stadium",11,2018,"Regular",16
+15336,2018-07-12,"R17","Adelaide",16,16,112,"Geelong",14,13,97,"Adelaide Oval",15,2018,"Regular",17
+15337,2018-07-13,"R17","St Kilda",16,20,116,"Carlton",7,10,52,"Docklands",64,2018,"Regular",17
+15338,2018-07-14,"R17","Hawthorn",9,11,65,"Brisbane Lions",15,8,98,"York Park",-33,2018,"Regular",17
+15339,2018-07-14,"R17","Melbourne",18,11,119,"Footscray",10,9,69,"M.C.G.",50,2018,"Regular",17
+15340,2018-07-14,"R17","Gold Coast",6,15,51,"Essendon",13,17,95,"Carrara",-44,2018,"Regular",17
+15341,2018-07-14,"R17","GWS",11,13,79,"Richmond",10,17,77,"Sydney Showground",2,2018,"Regular",17
+15342,2018-07-15,"R17","Collingwood",9,13,67,"West Coast",15,12,102,"M.C.G.",-35,2018,"Regular",17
+15343,2018-07-15,"R17","North Melbourne",15,8,98,"Sydney",16,8,104,"Docklands",-6,2018,"Regular",17
+15344,2018-07-15,"R17","Fremantle",8,11,59,"Port Adelaide",7,8,50,"Perth Stadium",9,2018,"Regular",17
