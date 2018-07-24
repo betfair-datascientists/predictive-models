@@ -184,7 +184,7 @@ def create_ave_elo_opponent(df, window, beaten_or_lost='beaten'):
 # Define our final function, which uses all the other functions defined to create our feature set
 def prepare_afl_features(window=6, k_factor=24):
 	# Grab the cleaned dataset which we prepared in the first tutorial 
-	afl_data = prepare_afl_data()
+	afl_data = prepare_afl_data().drop_duplicates()
 
 	# Create efficiency features, such as Disposal Efficiency, Inside 50 Efficiency etc.
 	afl_data = create_efficiency_features(afl_data)
