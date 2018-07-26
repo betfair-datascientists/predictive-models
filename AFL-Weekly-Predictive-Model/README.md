@@ -14,27 +14,27 @@ The predictions below are created from the afl_modelling script. For a detailed 
 preds = afl_modelling.prepare_afl_predictions_df()
 print(preds)
 '''
-       home_team         away_team Predicted Winner  home_odds  away_odds  \
-0       St Kilda          Richmond         Richmond       8.00       1.14   
-1    Collingwood   North Melbourne      Collingwood       1.59       2.64   
-2         Sydney        Gold Coast           Sydney       1.06      18.00   
-3       Essendon         Fremantle         Essendon       1.24       5.30   
-4       Brisbane          Adelaide         Brisbane       2.36       1.75   
-5        Geelong         Melbourne        Melbourne       1.63       2.58   
-6        Carlton          Hawthorn         Hawthorn       7.00       1.17   
-7     West Coast  Western Bulldogs       West Coast       1.13       9.40   
-8  Port Adelaide               GWS    Port Adelaide       1.90       2.10   
+          home_team      away_team Predicted Winner  home_odds  away_odds  \
+0          Essendon         Sydney         Essendon       1.81       2.22   
+1          Richmond    Collingwood         Richmond       1.38       3.65   
+2           Geelong       Brisbane          Geelong       1.21       5.80   
+3               GWS       St Kilda              GWS       1.15       7.60   
+4        Gold Coast        Carlton       Gold Coast       1.37       3.70   
+5          Adelaide      Melbourne        Melbourne       1.76       2.30   
+6   North Melbourne     West Coast       West Coast       2.24       1.80   
+7  Western Bulldogs  Port Adelaide    Port Adelaide       3.50       1.40   
+8         Fremantle       Hawthorn         Hawthorn       2.96       1.49   
 
       home_elo     away_elo  
-0  1429.168961  1609.933983  
-1  1498.995146  1466.844032  
-2  1668.777582  1287.580776  
-3  1501.969755  1443.532609  
-4  1285.782360  1633.965757  
-5  1633.190328  1500.301134  
-6  1243.047837  1580.237667  
-7  1601.537522  1452.042224  
-8  1566.616129  1596.476198  
+0  1511.970228  1647.183809  
+1  1616.198957  1509.887844  
+2  1640.811956  1282.932319  
+3  1607.447400  1422.903987  
+4  1309.174549  1240.034979  
+5  1636.815798  1492.679506  
+6  1455.951333  1608.670838  
+7  1444.908908  1555.644928  
+8  1433.532137  1583.250525  
 '''
 ```
 
