@@ -14,25 +14,27 @@ The predictions below are created from the afl_modelling script. For a detailed 
 preds = afl_modelling.prepare_afl_predictions_df()
 print(preds)
 '''
-         home_team         away_team Predicted Winner  home_odds  away_odds  \
-0         Essendon          St Kilda         Essendon       1.16       5.60   
-1         Hawthorn           Geelong         Hawthorn       2.10       1.73   
-2       Gold Coast          Richmond         Richmond      20.00       1.05   
-3    Port Adelaide        West Coast    Port Adelaide       1.57       2.76   
-4              GWS          Adelaide              GWS       1.55       2.84   
-5      Collingwood          Brisbane      Collingwood       1.26       4.80   
-6  North Melbourne  Western Bulldogs  North Melbourne       1.34       4.00   
-7        Melbourne            Sydney        Melbourne       1.42       3.40   
+     home_team         away_team Predicted Winner  home_odds  away_odds  \
+0     Richmond          Essendon         Richmond       1.53       2.88   
+1  Collingwood     Port Adelaide      Collingwood       1.54       2.92   
+2      Geelong         Fremantle          Geelong       1.08      13.00   
+3          GWS            Sydney              GWS       1.81       2.20   
+4     St Kilda          Hawthorn         Hawthorn       5.90       1.20   
+5   Gold Coast          Brisbane         Brisbane       4.80       1.27   
+6      Carlton  Western Bulldogs          Carlton       4.80       1.26   
+7   West Coast         Melbourne        Melbourne       1.76       2.28   
+8     Adelaide   North Melbourne         Adelaide       1.46       3.20   
 
       home_elo     away_elo  
-0  1518.535623  1416.739182  
-1  1600.259805  1643.524765  
-2  1294.817584  1624.637563  
-3  1563.944697  1591.711462  
-4  1613.612204  1620.104725  
-5  1501.449238  1280.219510  
-6  1472.910710  1436.609139  
-7  1509.390579  1630.736013 
+0  1624.637563  1518.535623  
+1  1501.449238  1563.944697  
+2  1643.524765  1426.405257  
+3  1613.612204  1630.736013  
+4  1416.739182  1600.259805  
+5  1294.817584  1280.219510  
+6  1254.391944  1436.609139  
+7  1591.711462  1509.390579  
+8  1620.104725  1472.910710  
 '''
 ```
 
