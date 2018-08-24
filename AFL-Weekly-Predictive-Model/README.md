@@ -14,27 +14,27 @@ The predictions below are created from the afl_modelling script. For a detailed 
 preds = afl_modelling.prepare_afl_predictions_df()
 print(preds)
 '''
-     home_team         away_team Predicted Winner  home_odds  away_odds  \
-0     Richmond          Essendon         Richmond       1.53       2.88   
-1  Collingwood     Port Adelaide      Collingwood       1.54       2.92   
-2      Geelong         Fremantle          Geelong       1.08      13.00   
-3          GWS            Sydney              GWS       1.81       2.20   
-4     St Kilda          Hawthorn         Hawthorn       5.90       1.20   
-5   Gold Coast          Brisbane         Brisbane       4.80       1.27   
-6      Carlton  Western Bulldogs          Carlton       4.80       1.26   
-7   West Coast         Melbourne        Melbourne       1.76       2.28   
-8     Adelaide   North Melbourne         Adelaide       1.46       3.20   
+       home_team         away_team Predicted Winner  home_odds  away_odds  \
+0  Port Adelaide          Essendon    Port Adelaide       1.71       2.42   
+1        Geelong        Gold Coast          Geelong       1.03      38.00   
+2       Richmond  Western Bulldogs         Richmond       1.11       9.00   
+3      Fremantle       Collingwood      Collingwood       6.40       1.18   
+4         Sydney          Hawthorn           Sydney       1.74       2.32   
+5        Carlton          Adelaide         Adelaide       8.20       1.14   
+6       Brisbane        West Coast         Brisbane       2.58       1.63   
+7      Melbourne               GWS        Melbourne       1.53       2.92   
+8       St Kilda   North Melbourne         St Kilda       3.80       1.35   
 
       home_elo     away_elo  
-0  1624.637563  1518.535623  
-1  1501.449238  1563.944697  
-2  1643.524765  1426.405257  
-3  1613.612204  1630.736013  
-4  1416.739182  1600.259805  
-5  1294.817584  1280.219510  
-6  1254.391944  1436.609139  
-7  1591.711462  1509.390579  
-8  1620.104725  1472.910710  
+0  1549.809163  1510.090428  
+1  1648.870232  1282.313681  
+2  1633.082758  1442.835490  
+3  1421.059791  1515.584772  
+4  1642.145056  1606.451621  
+5  1248.165593  1627.304629  
+6  1292.723413  1576.920238  
+7  1524.181803  1602.203161  
+8  1410.547366  1465.710806  
 '''
 ```
 
