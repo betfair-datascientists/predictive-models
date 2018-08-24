@@ -1,0 +1,21 @@
+HomeTeam,AwayTeam,f_homeOdds,f_drawOdds,f_awayOdds
+Wolves,Man City,13,7.4,1.28
+Southampton,Leicester,2.56,3.35,3.25
+Arsenal,West Ham,1.37,5.9,9.8
+Bournemouth,Everton,2.76,3.7,2.78
+Huddersfield,Cardiff,2.38,3.15,3.85
+Fulham,Burnley,2.06,3.45,4.4
+Liverpool,Brighton,1.19,8.8,22
+Watford,C Palace,2.62,3.35,3.1
+Newcastle,Chelsea,5.8,4.1,1.72
+Man Utd,Tottenham,2.7,3.4,2.98
+Leicester,Liverpool,7.6,4.3,1.59
+Brighton,Fulham,2.36,3.15,3.35
+Everton,Huddersfield,1.43,3.95,5.3
+C Palace,Southampton,1.89,3.35,3.85
+West Ham,Wolves,2.52,3.6,3.05
+Chelsea,Bournemouth,1.28,NA,8.4
+Man City,Newcastle,1.13,NA,9
+Cardiff,Arsenal,5.9,4.4,1.57
+Watford,Tottenham,5,NA,1.7
+Burnley,Man Utd,5,3.65,1.7

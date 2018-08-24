@@ -1,0 +1,381 @@
+Date,Time (AEST),HomeTeam,AwayTeam,Venue,TV,Year,round,season
+2018-08-11,5:00 AM,Man United,Leicester,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2018,1,1819
+2018-08-11,9:30 PM,Newcastle,Tottenham,"St.James’ Park, Newcastle","Optus, SBS",2018,1,1819
+2018-08-12,12:00 AM,Bournemouth,Cardiff,"Vitality Stadium, Bournemouth",Optus,2018,1,1819
+2018-08-12,12:00 AM,Fulham,Crystal Palace,"Craven Cottage, London",Optus,2018,1,1819
+2018-08-12,12:00 AM,Huddersfield,Chelsea,"John Smith’s Stadium, Huddersfield","Optus, Fox Sports (delay)",2018,1,1819
+2018-08-12,12:00 AM,Watford,Brighton,"Vicarage Road, Watford",Optus,2018,1,1819
+2018-08-12,2:30 AM,Wolves,Everton,"Molineux Stadium, Wolverhampton",Optus,2018,1,1819
+2018-08-12,10:30 PM,Liverpool,West Ham,"Anfield, Liverpool","Optus, Fox Sports (delay)",2018,1,1819
+2018-08-12,10:30 PM,Southampton,Burnley,"St.Mary’s Stadium, Southampton",Optus,2018,1,1819
+2018-08-13,1:00 AM,Arsenal,Man City,"Emirates Stadium, London",Optus,2018,1,1819
+2018-08-18,9:30 PM,Cardiff,Newcastle,"Cardiff City Staduim, Cardiff",Optus,2018,2,1819
+2018-08-19,12:00 AM,Burnley,Watford,"Turf Moor, Burnley",Optus,2018,2,1819
+2018-08-19,12:00 AM,Everton,Southampton,"Goodison Park, Liverpool",Optus,2018,2,1819
+2018-08-19,12:00 AM,Leicester,Wolves,"King Power Stadium, Leicester",Optus,2018,2,1819
+2018-08-19,12:00 AM,Tottenham,Fulham,"Wembley Stadium, London","Optus, SBS",2018,2,1819
+2018-08-19,12:00 AM,West Ham,Bournemouth,"London Stadium, London",Optus,2018,2,1819
+2018-08-19,2:30 AM,Chelsea,Arsenal,"Stamford Bridge, London","Optus, Fox Sports (delay)",2018,2,1819
+2018-08-19,10:30 PM,Man City,Huddersfield,"Etihad Stadium, Manchester",Optus,2018,2,1819
+2018-08-20,1:00 AM,Brighton,Man United,"Amex Stadium, Falmer","Optus, Fox Sports (delay)",2018,2,1819
+2018-08-21,5:00 AM,Crystal Palace,Liverpool,"Selhurst Park, London","Optus, Fox Sports (delay)",2018,2,1819
+2018-08-25,9:30 PM,Wolves,Man City,"Molineux Stadium, Wolverhampton","Optus, SBS",2018,3,1819
+2018-08-26,12:00 AM,Arsenal,West Ham,"Emirates Stadium, London",Optus,2018,3,1819
+2018-08-26,12:00 AM,Bournemouth,Everton,"Vitality Stadium, Bournemouth",Optus,2018,3,1819
+2018-08-26,12:00 AM,Fulham,Burnley,"Craven Cottage, London",Optus,2018,3,1819
+2018-08-26,12:00 AM,Huddersfield,Cardiff,"John Smith’s Stadium, Huddersfield",Optus,2018,3,1819
+2018-08-26,12:00 AM,Southampton,Leicester,"St.Mary’s Stadium, Southampton",Optus,2018,3,1819
+2018-08-26,2:30 AM,Liverpool,Brighton,"Anfield, Liverpool","Optus, Fox Sports (delay)",2018,3,1819
+2018-08-26,10:30 PM,Watford,Crystal Palace,"Vicarage Road, Watford",Optus,2018,3,1819
+2018-08-27,1:00 AM,Newcastle,Chelsea,"St.James’ Park, Newcastle","Optus, Fox Sports (delay)",2018,3,1819
+2018-08-28,5:00 AM,Man United,Tottenham,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2018,3,1819
+2018-09-01,9:30 PM,Leicester,Liverpool,"King Power Stadium, Leicester","Optus, SBS, Fox Sports (delay)",2018,4,1819
+2018-09-02,12:00 AM,Brighton,Fulham,"Amex Stadium, Falmer",Optus,2018,4,1819
+2018-09-02,12:00 AM,Burnley,Man United,"Turf Moor, Burnley","Optus, Fox Sports (delay)",2018,4,1819
+2018-09-02,12:00 AM,Chelsea,Bournemouth,"Stamford Bridge, London","Optus, Fox Sports (delay)",2018,4,1819
+2018-09-02,12:00 AM,Crystal Palace,Southampton,"Selhurst Park, London",Optus,2018,4,1819
+2018-09-02,12:00 AM,Everton,Huddersfield,"Goodison Park, Liverpool",Optus,2018,4,1819
+2018-09-02,12:00 AM,West Ham,Wolves,"London Stadium, London",Optus,2018,4,1819
+2018-09-02,2:30 AM,Man City,Newcastle,"Etihad Stadium, Manchester",Optus,2018,4,1819
+2018-09-02,10:30 PM,Cardiff,Arsenal,"Cardiff City Staduim, Cardiff",Optus,2018,4,1819
+2018-09-03,1:00 AM,Watford,Tottenham,"Vicarage Road, Watford",Optus,2018,4,1819
+2018-09-15,9:30 PM,Tottenham,Liverpool,"Tottenham Hotspur Stadium, London","Optus, SBS, Fox Sports (delay)",2018,5,1819
+2018-09-16,12:00 AM,Bournemouth,Leicester,"Vitality Stadium, Bournemouth",Optus,2018,5,1819
+2018-09-16,12:00 AM,Chelsea,Cardiff,"Stamford Bridge, London","Optus, Fox Sports (delay)",2018,5,1819
+2018-09-16,12:00 AM,Huddersfield,Crystal Palace,"John Smith’s Stadium, Huddersfield",Optus,2018,5,1819
+2018-09-16,12:00 AM,Man City,Fulham,"Etihad Stadium, Manchester",Optus,2018,5,1819
+2018-09-16,12:00 AM,Newcastle,Arsenal,"St.James’ Park, Newcastle",Optus,2018,5,1819
+2018-09-16,2:30 AM,Watford,Man United,"Vicarage Road, Watford","Optus, Fox Sports (delay)",2018,5,1819
+2018-09-16,10:30 PM,Wolves,Burnley,"Molineux Stadium, Wolverhampton",Optus,2018,5,1819
+2018-09-17,1:00 AM,Everton,West Ham,"Goodison Park, Liverpool",Optus,2018,5,1819
+2018-09-18,5:00 AM,Southampton,Brighton,"St.Mary’s Stadium, Southampton",Optus,2018,5,1819
+2018-09-22,9:30 PM,Fulham,Watford,"Craven Cottage, London",Optus,2018,6,1819
+2018-09-23,12:00 AM,Burnley,Bournemouth,"Turf Moor, Burnley",Optus,2018,6,1819
+2018-09-23,12:00 AM,Cardiff,Man City,"Cardiff City Staduim, Cardiff",Optus,2018,6,1819
+2018-09-23,12:00 AM,Crystal Palace,Newcastle,"Selhurst Park, London",Optus,2018,6,1819
+2018-09-23,12:00 AM,Leicester,Huddersfield,"King Power Stadium, Leicester",Optus,2018,6,1819
+2018-09-23,12:00 AM,Liverpool,Southampton,"Anfield, Liverpool","Optus, Fox Sports (delay)",2018,6,1819
+2018-09-23,12:00 AM,Man United,Wolves,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2018,6,1819
+2018-09-23,2:30 AM,Brighton,Tottenham,"Amex Stadium, Falmer",Optus,2018,6,1819
+2018-09-23,10:30 PM,West Ham,Chelsea,"London Stadium, London","Optus, Fox Sports (delay)",2018,6,1819
+2018-09-24,1:00 AM,Arsenal,Everton,"Emirates Stadium, London",Optus,2018,6,1819
+2018-09-29,9:30 PM,West Ham,Man United,"London Stadium, London","Optus, Fox Sports (delay)",2018,7,1819
+2018-09-30,12:00 AM,Arsenal,Watford,"Emirates Stadium, London",Optus,2018,7,1819
+2018-09-30,12:00 AM,Man City,Brighton,"Etihad Stadium, Manchester",Optus,2018,7,1819
+2018-09-30,12:00 AM,Everton,Fulham,"Goodison Park, Liverpool",Optus,2018,7,1819
+2018-09-30,12:00 AM,Huddersfield,Tottenham,"John Smith’s Stadium, Huddersfield",Optus,2018,7,1819
+2018-09-30,12:00 AM,Newcastle,Leicester,"St.James’ Park, Newcastle",Optus,2018,7,1819
+2018-09-30,12:00 AM,Wolves,Southampton,"Molineux Stadium, Wolverhampton",Optus,2018,7,1819
+2018-09-30,2:30 AM,Chelsea,Liverpool,"Stamford Bridge, London","Optus, Fox Sports (delay)",2018,7,1819
+2018-10-01,1:00 AM,Cardiff,Burnley,"Cardiff City Staduim, Cardiff",Optus,2018,7,1819
+2018-10-02,5:00 AM,Bournemouth,Crystal Palace,"Vitality Stadium, Bournemouth",Optus,2018,7,1819
+2018-10-07,12:00 AM,Fulham,Arsenal,"Craven Cottage, London",Optus,2018,8,1819
+2018-10-07,12:00 AM,Watford,Bournemouth,"Vicarage Road, Watford",Optus,2018,8,1819
+2018-10-07,12:00 AM,Brighton,West Ham,"Amex Stadium, Falmer",Optus,2018,8,1819
+2018-10-07,12:00 AM,Burnley,Huddersfield,"Turf Moor, Burnley",Optus,2018,8,1819
+2018-10-07,12:00 AM,Tottenham,Cardiff,"Tottenham Hotspur Stadium, London",Optus,2018,8,1819
+2018-10-07,12:00 AM,Southampton,Chelsea,"St.Mary’s Stadium, Southampton","Optus, Fox Sports (delay)",2018,8,1819
+2018-10-07,12:00 AM,Crystal Palace,Wolves,"Selhurst Park, London",Optus,2018,8,1819
+2018-10-07,12:00 AM,Leicester,Everton,"King Power Stadium, Leicester",Optus,2018,8,1819
+2018-10-07,12:00 AM,Liverpool,Man City,"Anfield, Liverpool","Optus, Fox Sports (delay)",2018,8,1819
+2018-10-07,12:00 AM,Man United,Newcastle,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2018,8,1819
+2018-10-21,1:00 AM,Arsenal,Leicester,"Emirates Stadium, London",Optus,2018,9,1819
+2018-10-21,1:00 AM,Bournemouth,Southampton,"Vitality Stadium, Bournemouth",Optus,2018,9,1819
+2018-10-21,1:00 AM,Newcastle,Brighton,"St.James’ Park, Newcastle",Optus,2018,9,1819
+2018-10-21,1:00 AM,Man City,Burnley,"Etihad Stadium, Manchester",Optus,2018,9,1819
+2018-10-21,1:00 AM,Cardiff,Fulham,"Cardiff City Staduim, Cardiff",Optus,2018,9,1819
+2018-10-21,1:00 AM,Chelsea,Man United,"Stamford Bridge, London","Optus, Fox Sports (delay)",2018,9,1819
+2018-10-21,1:00 AM,Everton,Crystal Palace,"Goodison Park, Liverpool",Optus,2018,9,1819
+2018-10-21,1:00 AM,Huddersfield,Liverpool,"John Smith’s Stadium, Huddersfield","Optus, Fox Sports (delay)",2018,9,1819
+2018-10-21,1:00 AM,West Ham,Tottenham,"London Stadium, London",Optus,2018,9,1819
+2018-10-21,1:00 AM,Wolves,Watford,"Molineux Stadium, Wolverhampton",Optus,2018,9,1819
+2018-10-28,1:00 AM,Crystal Palace,Arsenal,"Selhurst Park, London",Optus,2018,10,1819
+2018-10-28,1:00 AM,Fulham,Bournemouth,"Craven Cottage, London",Optus,2018,10,1819
+2018-10-28,1:00 AM,Brighton,Wolves,"Amex Stadium, Falmer",Optus,2018,10,1819
+2018-10-28,1:00 AM,Burnley,Chelsea,"Turf Moor, Burnley","Optus, Fox Sports (delay)",2018,10,1819
+2018-10-28,1:00 AM,Liverpool,Cardiff,"Anfield, Liverpool","Optus, Fox Sports (delay)",2018,10,1819
+2018-10-28,1:00 AM,Man United,Everton,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2018,10,1819
+2018-10-28,1:00 AM,Watford,Huddersfield,"Vicarage Road, Watford",Optus,2018,10,1819
+2018-10-28,1:00 AM,Leicester,West Ham,"King Power Stadium, Leicester",Optus,2018,10,1819
+2018-10-28,1:00 AM,Tottenham,Man City,"Tottenham Hotspur Stadium, London",Optus,2018,10,1819
+2018-10-28,1:00 AM,Southampton,Newcastle,"St.Mary’s Stadium, Southampton",Optus,2018,10,1819
+2018-11-04,2:00 AM,Arsenal,Liverpool,"Emirates Stadium, London","Optus, Fox Sports (delay)",2018,11,1819
+2018-11-04,2:00 AM,Bournemouth,Man United,"Vitality Stadium, Bournemouth","Optus, Fox Sports (delay)",2018,11,1819
+2018-11-04,2:00 AM,Everton,Brighton,"Goodison Park, Liverpool",Optus,2018,11,1819
+2018-11-04,2:00 AM,West Ham,Burnley,"London Stadium, London",Optus,2018,11,1819
+2018-11-04,2:00 AM,Cardiff,Leicester,"Cardiff City Staduim, Cardiff",Optus,2018,11,1819
+2018-11-04,2:00 AM,Chelsea,Crystal Palace,"Stamford Bridge, London","Optus, Fox Sports (delay)",2018,11,1819
+2018-11-04,2:00 AM,Huddersfield,Fulham,"John Smith’s Stadium, Huddersfield",Optus,2018,11,1819
+2018-11-04,2:00 AM,Man City,Southampton,"Etihad Stadium, Manchester",Optus,2018,11,1819
+2018-11-04,2:00 AM,Newcastle,Watford,"St.James’ Park, Newcastle",Optus,2018,11,1819
+2018-11-04,2:00 AM,Wolves,Tottenham,"Molineux Stadium, Wolverhampton",Optus,2018,11,1819
+2018-11-11,2:00 AM,Arsenal,Wolves,"Emirates Stadium, London",Optus,2018,12,1819
+2018-11-11,2:00 AM,Newcastle,Bournemouth,"St.James’ Park, Newcastle",Optus,2018,12,1819
+2018-11-11,2:00 AM,Cardiff,Brighton,"Cardiff City Staduim, Cardiff",Optus,2018,12,1819
+2018-11-11,2:00 AM,Leicester,Burnley,"King Power Stadium, Leicester",Optus,2018,12,1819
+2018-11-11,2:00 AM,Chelsea,Everton,"Stamford Bridge, London","Optus, Fox Sports (delay)",2018,12,1819
+2018-11-11,2:00 AM,Crystal Palace,Tottenham,"Selhurst Park, London",Optus,2018,12,1819
+2018-11-11,2:00 AM,Southampton,Watford,"St.Mary’s Stadium, Southampton",Optus,2018,12,1819
+2018-11-11,2:00 AM,Liverpool,Fulham,"Anfield, Liverpool","Optus, Fox Sports (delay)",2018,12,1819
+2018-11-11,2:00 AM,Huddersfield,West Ham,"John Smith’s Stadium, Huddersfield",Optus,2018,12,1819
+2018-11-11,2:00 AM,Man City,Man United,"Etihad Stadium, Manchester","Optus, Fox Sports (delay)",2018,12,1819
+2018-11-25,2:00 AM,Bournemouth,Arsenal,"Vitality Stadium, Bournemouth",Optus,2018,13,1819
+2018-11-25,2:00 AM,Brighton,Leicester,"Amex Stadium, Falmer",Optus,2018,13,1819
+2018-11-25,2:00 AM,Burnley,Newcastle,"Turf Moor, Burnley",Optus,2018,13,1819
+2018-11-25,2:00 AM,Everton,Cardiff,"Goodison Park, Liverpool",Optus,2018,13,1819
+2018-11-25,2:00 AM,Tottenham,Chelsea,"Tottenham Hotspur Stadium, London","Optus, Fox Sports (delay)",2018,13,1819
+2018-11-25,2:00 AM,Man United,Crystal Palace,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2018,13,1819
+2018-11-25,2:00 AM,Fulham,Southampton,"Craven Cottage, London",Optus,2018,13,1819
+2018-11-25,2:00 AM,Wolves,Huddersfield,"Molineux Stadium, Wolverhampton",Optus,2018,13,1819
+2018-11-25,2:00 AM,Watford,Liverpool,"Vicarage Road, Watford","Optus, Fox Sports (delay)",2018,13,1819
+2018-11-25,2:00 AM,West Ham,Man City,"London Stadium, London",Optus,2018,13,1819
+2018-12-02,2:00 AM,Arsenal,Tottenham,"Emirates Stadium, London",Optus,2018,14,1819
+2018-12-02,2:00 AM,Man City,Bournemouth,"Etihad Stadium, Manchester",Optus,2018,14,1819
+2018-12-02,2:00 AM,Huddersfield,Brighton,"John Smith’s Stadium, Huddersfield",Optus,2018,14,1819
+2018-12-02,2:00 AM,Crystal Palace,Burnley,"Selhurst Park, London",Optus,2018,14,1819
+2018-12-02,2:00 AM,Cardiff,Wolves,"Cardiff City Staduim, Cardiff",Optus,2018,14,1819
+2018-12-02,2:00 AM,Chelsea,Fulham,"Stamford Bridge, London","Optus, Fox Sports (delay)",2018,14,1819
+2018-12-02,2:00 AM,Liverpool,Everton,"Anfield, Liverpool","Optus, Fox Sports (delay)",2018,14,1819
+2018-12-02,2:00 AM,Leicester,Watford,"King Power Stadium, Leicester",Optus,2018,14,1819
+2018-12-02,2:00 AM,Southampton,Man United,"St.Mary’s Stadium, Southampton","Optus, Fox Sports (delay)",2018,14,1819
+2018-12-02,2:00 AM,Newcastle,West Ham,"St.James’ Park, Newcastle",Optus,2018,14,1819
+2018-12-05,6:45 AM,Bournemouth,Huddersfield,"Vitality Stadium, Bournemouth",Optus,2018,15,1819
+2018-12-05,6:45 AM,Brighton,Crystal Palace,"Amex Stadium, Falmer",Optus,2018,15,1819
+2018-12-05,6:45 AM,Burnley,Liverpool,"Turf Moor, Burnley","Optus, Fox Sports (delay)",2018,15,1819
+2018-12-05,6:45 AM,West Ham,Cardiff,"London Stadium, London",Optus,2018,15,1819
+2018-12-05,6:45 AM,Wolves,Chelsea,"Molineux Stadium, Wolverhampton","Optus, Fox Sports (delay)",2018,15,1819
+2018-12-05,6:45 AM,Fulham,Leicester,"Craven Cottage, London",Optus,2018,15,1819
+2018-12-05,6:45 AM,Watford,Man City,"Vicarage Road, Watford",Optus,2018,15,1819
+2018-12-05,7:00 AM,Man United,Arsenal,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2018,15,1819
+2018-12-06,6:45 AM,Everton,Newcastle,"Goodison Park, Liverpool",Optus,2018,15,1819
+2018-12-06,7:00 AM,Tottenham,Southampton,"Tottenham Hotspur Stadium, London",Optus,2018,15,1819
+2018-12-09,2:00 AM,Arsenal,Huddersfield,"Emirates Stadium, London",Optus,2018,16,1819
+2018-12-09,2:00 AM,Bournemouth,Liverpool,"Vitality Stadium, Bournemouth","Optus, Fox Sports (delay)",2018,16,1819
+2018-12-09,2:00 AM,Burnley,Brighton,"Turf Moor, Burnley",Optus,2018,16,1819
+2018-12-09,2:00 AM,Cardiff,Southampton,"Cardiff City Staduim, Cardiff",Optus,2018,16,1819
+2018-12-09,2:00 AM,Chelsea,Man City,"Stamford Bridge, London","Optus, Fox Sports (delay)",2018,16,1819
+2018-12-09,2:00 AM,West Ham,Crystal Palace,"London Stadium, London",Optus,2018,16,1819
+2018-12-09,2:00 AM,Everton,Watford,"Goodison Park, Liverpool",Optus,2018,16,1819
+2018-12-09,2:00 AM,Man United,Fulham,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2018,16,1819
+2018-12-09,2:00 AM,Leicester,Tottenham,"King Power Stadium, Leicester",Optus,2018,16,1819
+2018-12-09,2:00 AM,Newcastle,Wolves,"St.James’ Park, Newcastle",Optus,2018,16,1819
+2018-12-16,2:00 AM,Southampton,Arsenal,"St.Mary’s Stadium, Southampton",Optus,2018,17,1819
+2018-12-16,2:00 AM,Wolves,Bournemouth,"Molineux Stadium, Wolverhampton",Optus,2018,17,1819
+2018-12-16,2:00 AM,Brighton,Chelsea,"Amex Stadium, Falmer","Optus, Fox Sports (delay)",2018,17,1819
+2018-12-16,2:00 AM,Tottenham,Burnley,"Tottenham Hotspur Stadium, London",Optus,2018,17,1819
+2018-12-16,2:00 AM,Watford,Cardiff,"Vicarage Road, Watford",Optus,2018,17,1819
+2018-12-16,2:00 AM,Crystal Palace,Leicester,"Selhurst Park, London",Optus,2018,17,1819
+2018-12-16,2:00 AM,Man City,Everton,"Etihad Stadium, Manchester",Optus,2018,17,1819
+2018-12-16,2:00 AM,Fulham,West Ham,"Craven Cottage, London",Optus,2018,17,1819
+2018-12-16,2:00 AM,Huddersfield,Newcastle,"John Smith’s Stadium, Huddersfield",Optus,2018,17,1819
+2018-12-16,2:00 AM,Liverpool,Man United,"Anfield, Liverpool","Optus, Fox Sports (delay)",2018,17,1819
+2018-12-23,2:00 AM,Arsenal,Burnley,"Emirates Stadium, London",Optus,2018,18,1819
+2018-12-23,2:00 AM,Bournemouth,Brighton,"Vitality Stadium, Bournemouth",Optus,2018,18,1819
+2018-12-23,2:00 AM,Cardiff,Man United,"Cardiff City Staduim, Cardiff","Optus, Fox Sports (delay)",2018,18,1819
+2018-12-23,2:00 AM,Chelsea,Leicester,"Stamford Bridge, London","Optus, Fox Sports (delay)",2018,18,1819
+2018-12-23,2:00 AM,Man City,Crystal Palace,"Etihad Stadium, Manchester",Optus,2018,18,1819
+2018-12-23,2:00 AM,Everton,Tottenham,"Goodison Park, Liverpool",Optus,2018,18,1819
+2018-12-23,2:00 AM,Newcastle,Fulham,"St.James’ Park, Newcastle",Optus,2018,18,1819
+2018-12-23,2:00 AM,Huddersfield,Southampton,"John Smith’s Stadium, Huddersfield",Optus,2018,18,1819
+2018-12-23,2:00 AM,Wolves,Liverpool,"Molineux Stadium, Wolverhampton","Optus, Fox Sports (delay)",2018,18,1819
+2018-12-23,2:00 AM,West Ham,Watford,"London Stadium, London",Optus,2018,18,1819
+2018-12-27,2:00 AM,Brighton,Arsenal,"Amex Stadium, Falmer",Optus,2018,19,1819
+2018-12-27,2:00 AM,Tottenham,Bournemouth,"Tottenham Hotspur Stadium, London",Optus,2018,19,1819
+2018-12-27,2:00 AM,Burnley,Everton,"Turf Moor, Burnley",Optus,2018,19,1819
+2018-12-27,2:00 AM,Crystal Palace,Cardiff,"Selhurst Park, London",Optus,2018,19,1819
+2018-12-27,2:00 AM,Watford,Chelsea,"Vicarage Road, Watford","Optus, Fox Sports (delay)",2018,19,1819
+2018-12-27,2:00 AM,Fulham,Wolves,"Craven Cottage, London",Optus,2018,19,1819
+2018-12-27,2:00 AM,Man United,Huddersfield,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2018,19,1819
+2018-12-27,2:00 AM,Leicester,Man City,"King Power Stadium, Leicester",Optus,2018,19,1819
+2018-12-27,2:00 AM,Liverpool,Newcastle,"Anfield, Liverpool","Optus, Fox Sports (delay)",2018,19,1819
+2018-12-27,2:00 AM,Southampton,West Ham,"St.Mary’s Stadium, Southampton",Optus,2018,19,1819
+2018-12-30,2:00 AM,Liverpool,Arsenal,"Anfield, Liverpool","Optus, Fox Sports (delay)",2018,20,1819
+2018-12-30,2:00 AM,Man United,Bournemouth,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2018,20,1819
+2018-12-30,2:00 AM,Brighton,Everton,"Amex Stadium, Falmer",Optus,2018,20,1819
+2018-12-30,2:00 AM,Burnley,West Ham,"Turf Moor, Burnley",Optus,2018,20,1819
+2018-12-30,2:00 AM,Leicester,Cardiff,"King Power Stadium, Leicester",Optus,2018,20,1819
+2018-12-30,2:00 AM,Crystal Palace,Chelsea,"Selhurst Park, London","Optus, Fox Sports (delay)",2018,20,1819
+2018-12-30,2:00 AM,Fulham,Huddersfield,"Craven Cottage, London",Optus,2018,20,1819
+2018-12-30,2:00 AM,Southampton,Man City,"St.Mary’s Stadium, Southampton",Optus,2018,20,1819
+2018-12-30,2:00 AM,Watford,Newcastle,"Vicarage Road, Watford",Optus,2018,20,1819
+2018-12-30,2:00 AM,Tottenham,Wolves,"Tottenham Hotspur Stadium, London",Optus,2018,20,1819
+2019-01-02,2:00 AM,Arsenal,Fulham,"Emirates Stadium, London",Optus,2019,21,1819
+2019-01-02,2:00 AM,Bournemouth,Watford,"Vitality Stadium, Bournemouth",Optus,2019,21,1819
+2019-01-02,2:00 AM,West Ham,Brighton,"London Stadium, London",Optus,2019,21,1819
+2019-01-02,2:00 AM,Huddersfield,Burnley,"John Smith’s Stadium, Huddersfield",Optus,2019,21,1819
+2019-01-02,2:00 AM,Cardiff,Tottenham,"Cardiff City Staduim, Cardiff",Optus,2019,21,1819
+2019-01-02,2:00 AM,Chelsea,Southampton,"Stamford Bridge, London","Optus, Fox Sports (delay)",2019,21,1819
+2019-01-02,2:00 AM,Wolves,Crystal Palace,"Molineux Stadium, Wolverhampton",Optus,2019,21,1819
+2019-01-02,2:00 AM,Everton,Leicester,"Goodison Park, Liverpool",Optus,2019,21,1819
+2019-01-02,2:00 AM,Man City,Liverpool,"Etihad Stadium, Manchester","Optus, Fox Sports (delay)",2019,21,1819
+2019-01-02,2:00 AM,Newcastle,Man United,"St.James’ Park, Newcastle","Optus, Fox Sports (delay)",2019,21,1819
+2019-01-13,2:00 AM,West Ham,Arsenal,"London Stadium, London",Optus,2019,22,1819
+2019-01-13,2:00 AM,Everton,Bournemouth,"Goodison Park, Liverpool",Optus,2019,22,1819
+2019-01-13,2:00 AM,Brighton,Liverpool,"Amex Stadium, Falmer","Optus, Fox Sports (delay)",2019,22,1819
+2019-01-13,2:00 AM,Burnley,Fulham,"Turf Moor, Burnley",Optus,2019,22,1819
+2019-01-13,2:00 AM,Cardiff,Huddersfield,"Cardiff City Staduim, Cardiff",Optus,2019,22,1819
+2019-01-13,2:00 AM,Chelsea,Newcastle,"Stamford Bridge, London","Optus, Fox Sports (delay)",2019,22,1819
+2019-01-13,2:00 AM,Crystal Palace,Watford,"Selhurst Park, London",Optus,2019,22,1819
+2019-01-13,2:00 AM,Leicester,Southampton,"King Power Stadium, Leicester",Optus,2019,22,1819
+2019-01-13,2:00 AM,Tottenham,Man United,"Tottenham Hotspur Stadium, London","Optus, Fox Sports (delay)",2019,22,1819
+2019-01-13,2:00 AM,Man City,Wolves,"Etihad Stadium, Manchester",Optus,2019,22,1819
+2019-01-20,2:00 AM,Arsenal,Chelsea,"Emirates Stadium, London","Optus, Fox Sports (delay)",2019,23,1819
+2019-01-20,2:00 AM,Bournemouth,West Ham,"Vitality Stadium, Bournemouth",Optus,2019,23,1819
+2019-01-20,2:00 AM,Man United,Brighton,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2019,23,1819
+2019-01-20,2:00 AM,Watford,Burnley,"Vicarage Road, Watford",Optus,2019,23,1819
+2019-01-20,2:00 AM,Newcastle,Cardiff,"St.James’ Park, Newcastle",Optus,2019,23,1819
+2019-01-20,2:00 AM,Liverpool,Crystal Palace,"Anfield, Liverpool","Optus, Fox Sports (delay)",2019,23,1819
+2019-01-20,2:00 AM,Southampton,Everton,"St.Mary’s Stadium, Southampton",Optus,2019,23,1819
+2019-01-20,2:00 AM,Fulham,Tottenham,"Craven Cottage, London",Optus,2019,23,1819
+2019-01-20,2:00 AM,Huddersfield,Man City,"John Smith’s Stadium, Huddersfield",Optus,2019,23,1819
+2019-01-20,2:00 AM,Wolves,Leicester,"Molineux Stadium, Wolverhampton",Optus,2019,23,1819
+2019-01-30,6:45 AM,Arsenal,Cardiff,"Emirates Stadium, London",Optus,2019,24,1819
+2019-01-30,6:45 AM,Bournemouth,Chelsea,"Vitality Stadium, Bournemouth","Optus, Fox Sports (delay)",2019,24,1819
+2019-01-30,6:45 AM,Fulham,Brighton,"Craven Cottage, London",Optus,2019,24,1819
+2019-01-30,6:45 AM,Man United,Burnley,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2019,24,1819
+2019-01-30,6:45 AM,Southampton,Crystal Palace,"St.Mary’s Stadium, Southampton",Optus,2019,24,1819
+2019-01-30,7:00 AM,Huddersfield,Everton,"John Smith’s Stadium, Huddersfield",Optus,2019,24,1819
+2019-01-31,6:45 AM,Newcastle,Man City,"St.James’ Park, Newcastle",Optus,2019,24,1819
+2019-01-31,6:45 AM,Wolves,West Ham,"Molineux Stadium, Wolverhampton",Optus,2019,24,1819
+2019-01-31,7:00 AM,Liverpool,Leicester,"Anfield, Liverpool","Optus, Fox Sports (delay)",2019,24,1819
+2019-01-31,7:00 AM,Tottenham,Watford,"Tottenham Hotspur Stadium, London",Optus,2019,24,1819
+2019-02-03,2:00 AM,Man City,Arsenal,"Etihad Stadium, Manchester",Optus,2019,25,1819
+2019-02-03,2:00 AM,Cardiff,Bournemouth,"Cardiff City Staduim, Cardiff",Optus,2019,25,1819
+2019-02-03,2:00 AM,Brighton,Watford,"Amex Stadium, Falmer",Optus,2019,25,1819
+2019-02-03,2:00 AM,Burnley,Southampton,"Turf Moor, Burnley",Optus,2019,25,1819
+2019-02-03,2:00 AM,Chelsea,Huddersfield,"Stamford Bridge, London","Optus, Fox Sports (delay)",2019,25,1819
+2019-02-03,2:00 AM,Crystal Palace,Fulham,"Selhurst Park, London",Optus,2019,25,1819
+2019-02-03,2:00 AM,Everton,Wolves,"Goodison Park, Liverpool",Optus,2019,25,1819
+2019-02-03,2:00 AM,Leicester,Man United,"King Power Stadium, Leicester","Optus, Fox Sports (delay)",2019,25,1819
+2019-02-03,2:00 AM,West Ham,Liverpool,"London Stadium, London","Optus, Fox Sports (delay)",2019,25,1819
+2019-02-03,2:00 AM,Tottenham,Newcastle,"Tottenham Hotspur Stadium, London",Optus,2019,25,1819
+2019-02-10,2:00 AM,Huddersfield,Arsenal,"John Smith’s Stadium, Huddersfield",Optus,2019,26,1819
+2019-02-10,2:00 AM,Liverpool,Bournemouth,"Anfield, Liverpool","Optus, Fox Sports (delay)",2019,26,1819
+2019-02-10,2:00 AM,Brighton,Burnley,"Amex Stadium, Falmer",Optus,2019,26,1819
+2019-02-10,2:00 AM,Southampton,Cardiff,"St.Mary’s Stadium, Southampton",Optus,2019,26,1819
+2019-02-10,2:00 AM,Man City,Chelsea,"Etihad Stadium, Manchester","Optus, Fox Sports (delay)",2019,26,1819
+2019-02-10,2:00 AM,Crystal Palace,West Ham,"Selhurst Park, London",Optus,2019,26,1819
+2019-02-10,2:00 AM,Watford,Everton,"Vicarage Road, Watford",Optus,2019,26,1819
+2019-02-10,2:00 AM,Fulham,Man United,"Craven Cottage, London","Optus, Fox Sports (delay)",2019,26,1819
+2019-02-10,2:00 AM,Tottenham,Leicester,"Tottenham Hotspur Stadium, London",Optus,2019,26,1819
+2019-02-10,2:00 AM,Wolves,Newcastle,"Molineux Stadium, Wolverhampton",Optus,2019,26,1819
+2019-02-24,2:00 AM,Arsenal,Southampton,"Emirates Stadium, London",Optus,2019,27,1819
+2019-02-24,2:00 AM,Bournemouth,Wolves,"Vitality Stadium, Bournemouth",Optus,2019,27,1819
+2019-02-24,2:00 AM,Chelsea,Brighton,"Stamford Bridge, London","Optus, Fox Sports (delay)",2019,27,1819
+2019-02-24,2:00 AM,Burnley,Tottenham,"Turf Moor, Burnley",Optus,2019,27,1819
+2019-02-24,2:00 AM,Cardiff,Watford,"Cardiff City Staduim, Cardiff",Optus,2019,27,1819
+2019-02-24,2:00 AM,Leicester,Crystal Palace,"King Power Stadium, Leicester",Optus,2019,27,1819
+2019-02-24,2:00 AM,Everton,Man City,"Goodison Park, Liverpool",Optus,2019,27,1819
+2019-02-24,2:00 AM,West Ham,Fulham,"London Stadium, London",Optus,2019,27,1819
+2019-02-24,2:00 AM,Newcastle,Huddersfield,"St.James’ Park, Newcastle",Optus,2019,27,1819
+2019-02-24,2:00 AM,Man United,Liverpool,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2019,27,1819
+2019-02-27,6:45 AM,Arsenal,Bournemouth,"Emirates Stadium, London",Optus,2019,28,1819
+2019-02-27,6:45 AM,Leicester,Brighton,"King Power Stadium, Leicester",Optus,2019,28,1819
+2019-02-27,6:45 AM,Newcastle,Burnley,"St.James’ Park, Newcastle",Optus,2019,28,1819
+2019-02-27,6:45 AM,Cardiff,Everton,"Cardiff City Staduim, Cardiff",Optus,2019,28,1819
+2019-02-27,7:00 AM,Crystal Palace,Man United,"Selhurst Park, London","Optus, Fox Sports (delay)",2019,28,1819
+2019-02-28,6:45 AM,Chelsea,Tottenham,"Stamford Bridge, London","Optus, Fox Sports (delay)",2019,28,1819
+2019-02-28,6:45 AM,Southampton,Fulham,"St.Mary’s Stadium, Southampton",Optus,2019,28,1819
+2019-02-28,6:45 AM,Huddersfield,Wolves,"John Smith’s Stadium, Huddersfield",Optus,2019,28,1819
+2019-02-28,7:00 AM,Liverpool,Watford,"Anfield, Liverpool","Optus, Fox Sports (delay)",2019,28,1819
+2019-02-28,7:00 AM,Man City,West Ham,"Etihad Stadium, Manchester",Optus,2019,28,1819
+2019-03-03,2:00 AM,Tottenham,Arsenal,"Tottenham Hotspur Stadium, London",Optus,2019,29,1819
+2019-03-03,2:00 AM,Bournemouth,Man City,"Vitality Stadium, Bournemouth",Optus,2019,29,1819
+2019-03-03,2:00 AM,Brighton,Huddersfield,"Amex Stadium, Falmer",Optus,2019,29,1819
+2019-03-03,2:00 AM,Burnley,Crystal Palace,"Turf Moor, Burnley",Optus,2019,29,1819
+2019-03-03,2:00 AM,Wolves,Cardiff,"Molineux Stadium, Wolverhampton",Optus,2019,29,1819
+2019-03-03,2:00 AM,Fulham,Chelsea,"Craven Cottage, London","Optus, Fox Sports (delay)",2019,29,1819
+2019-03-03,2:00 AM,Everton,Liverpool,"Goodison Park, Liverpool","Optus, Fox Sports (delay)",2019,29,1819
+2019-03-03,2:00 AM,Watford,Leicester,"Vicarage Road, Watford",Optus,2019,29,1819
+2019-03-03,2:00 AM,Man United,Southampton,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2019,29,1819
+2019-03-03,2:00 AM,West Ham,Newcastle,"London Stadium, London",Optus,2019,29,1819
+2019-03-10,2:00 AM,Arsenal,Man United,"Emirates Stadium, London","Optus, Fox Sports (delay)",2019,30,1819
+2019-03-10,2:00 AM,Huddersfield,Bournemouth,"John Smith’s Stadium, Huddersfield",Optus,2019,30,1819
+2019-03-10,2:00 AM,Crystal Palace,Brighton,"Selhurst Park, London",Optus,2019,30,1819
+2019-03-10,2:00 AM,Liverpool,Burnley,"Anfield, Liverpool","Optus, Fox Sports (delay)",2019,30,1819
+2019-03-10,2:00 AM,Cardiff,West Ham,"Cardiff City Staduim, Cardiff",Optus,2019,30,1819
+2019-03-10,2:00 AM,Chelsea,Wolves,"Stamford Bridge, London","Optus, Fox Sports (delay)",2019,30,1819
+2019-03-10,2:00 AM,Newcastle,Everton,"St.James’ Park, Newcastle",Optus,2019,30,1819
+2019-03-10,2:00 AM,Leicester,Fulham,"King Power Stadium, Leicester",Optus,2019,30,1819
+2019-03-10,2:00 AM,Man City,Watford,"Etihad Stadium, Manchester",Optus,2019,30,1819
+2019-03-10,2:00 AM,Southampton,Tottenham,"St.Mary’s Stadium, Southampton",Optus,2019,30,1819
+2019-03-17,2:00 AM,Wolves,Arsenal,"Molineux Stadium, Wolverhampton",Optus,2019,31,1819
+2019-03-17,2:00 AM,Bournemouth,Newcastle,"Vitality Stadium, Bournemouth",Optus,2019,31,1819
+2019-03-17,2:00 AM,Brighton,Cardiff,"Amex Stadium, Falmer",Optus,2019,31,1819
+2019-03-17,2:00 AM,Burnley,Leicester,"Turf Moor, Burnley",Optus,2019,31,1819
+2019-03-17,2:00 AM,Everton,Chelsea,"Goodison Park, Liverpool","Optus, Fox Sports (delay)",2019,31,1819
+2019-03-17,2:00 AM,Tottenham,Crystal Palace,"Tottenham Hotspur Stadium, London",Optus,2019,31,1819
+2019-03-17,2:00 AM,Fulham,Liverpool,"Craven Cottage, London","Optus, Fox Sports (delay)",2019,31,1819
+2019-03-17,2:00 AM,West Ham,Huddersfield,"London Stadium, London",Optus,2019,31,1819
+2019-03-17,2:00 AM,Man United,Man City,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2019,31,1819
+2019-03-17,2:00 AM,Watford,Southampton,"Vicarage Road, Watford",Optus,2019,31,1819
+2019-03-31,2:00 AM,Arsenal,Newcastle,"Emirates Stadium, London",Optus,2019,32,1819
+2019-03-31,2:00 AM,Leicester,Bournemouth,"King Power Stadium, Leicester",Optus,2019,32,1819
+2019-03-31,2:00 AM,Brighton,Southampton,"Amex Stadium, Falmer",Optus,2019,32,1819
+2019-03-31,2:00 AM,Burnley,Wolves,"Turf Moor, Burnley",Optus,2019,32,1819
+2019-03-31,2:00 AM,Cardiff,Chelsea,"Cardiff City Staduim, Cardiff","Optus, Fox Sports (delay)",2019,32,1819
+2019-03-31,2:00 AM,Crystal Palace,Huddersfield,"Selhurst Park, London",Optus,2019,32,1819
+2019-03-31,2:00 AM,West Ham,Everton,"London Stadium, London",Optus,2019,32,1819
+2019-03-31,2:00 AM,Fulham,Man City,"Craven Cottage, London",Optus,2019,32,1819
+2019-03-31,2:00 AM,Liverpool,Tottenham,"Anfield, Liverpool","Optus, Fox Sports (delay)",2019,32,1819
+2019-03-31,2:00 AM,Man United,Watford,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2019,32,1819
+2019-04-07,1:00 AM,Everton,Arsenal,"Goodison Park, Liverpool",Optus,2019,33,1819
+2019-04-07,1:00 AM,Bournemouth,Burnley,"Vitality Stadium, Bournemouth",Optus,2019,33,1819
+2019-04-07,1:00 AM,Tottenham,Brighton,"Tottenham Hotspur Stadium, London",Optus,2019,33,1819
+2019-04-07,1:00 AM,Man City,Cardiff,"Etihad Stadium, Manchester",Optus,2019,33,1819
+2019-04-07,1:00 AM,Chelsea,West Ham,"Stamford Bridge, London","Optus, Fox Sports (delay)",2019,33,1819
+2019-04-07,1:00 AM,Newcastle,Crystal Palace,"St.James’ Park, Newcastle",Optus,2019,33,1819
+2019-04-07,1:00 AM,Watford,Fulham,"Vicarage Road, Watford",Optus,2019,33,1819
+2019-04-07,1:00 AM,Huddersfield,Leicester,"John Smith’s Stadium, Huddersfield",Optus,2019,33,1819
+2019-04-07,1:00 AM,Southampton,Liverpool,"St.Mary’s Stadium, Southampton","Optus, Fox Sports (delay)",2019,33,1819
+2019-04-07,1:00 AM,Wolves,Man United,"Molineux Stadium, Wolverhampton","Optus, Fox Sports (delay)",2019,33,1819
+2019-04-14,12:00 AM,Watford,Arsenal,"Vicarage Road, Watford",Optus,2019,34,1819
+2019-04-14,12:00 AM,Brighton,Bournemouth,"Amex Stadium, Falmer",Optus,2019,34,1819
+2019-04-14,12:00 AM,Burnley,Cardiff,"Turf Moor, Burnley",Optus,2019,34,1819
+2019-04-14,12:00 AM,Liverpool,Chelsea,"Anfield, Liverpool","Optus, Fox Sports (delay)",2019,34,1819
+2019-04-14,12:00 AM,Crystal Palace,Man City,"Selhurst Park, London",Optus,2019,34,1819
+2019-04-14,12:00 AM,Fulham,Everton,"Craven Cottage, London",Optus,2019,34,1819
+2019-04-14,12:00 AM,Tottenham,Huddersfield,"Tottenham Hotspur Stadium, London",Optus,2019,34,1819
+2019-04-14,12:00 AM,Leicester,Newcastle,"King Power Stadium, Leicester",Optus,2019,34,1819
+2019-04-14,12:00 AM,Man United,West Ham,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2019,34,1819
+2019-04-14,12:00 AM,Southampton,Wolves,"St.Mary’s Stadium, Southampton",Optus,2019,34,1819
+2019-04-21,12:00 AM,Arsenal,Crystal Palace,"Emirates Stadium, London",Optus,2019,35,1819
+2019-04-21,12:00 AM,Bournemouth,Fulham,"Vitality Stadium, Bournemouth",Optus,2019,35,1819
+2019-04-21,12:00 AM,Wolves,Brighton,"Molineux Stadium, Wolverhampton",Optus,2019,35,1819
+2019-04-21,12:00 AM,Chelsea,Burnley,"Stamford Bridge, London","Optus, Fox Sports (delay)",2019,35,1819
+2019-04-21,12:00 AM,Cardiff,Liverpool,"Cardiff City Staduim, Cardiff","Optus, Fox Sports (delay)",2019,35,1819
+2019-04-21,12:00 AM,Everton,Man United,"Goodison Park, Liverpool","Optus, Fox Sports (delay)",2019,35,1819
+2019-04-21,12:00 AM,Huddersfield,Watford,"John Smith’s Stadium, Huddersfield",Optus,2019,35,1819
+2019-04-21,12:00 AM,West Ham,Leicester,"London Stadium, London",Optus,2019,35,1819
+2019-04-21,12:00 AM,Man City,Tottenham,"Etihad Stadium, Manchester",Optus,2019,35,1819
+2019-04-21,12:00 AM,Newcastle,Southampton,"St.James’ Park, Newcastle",Optus,2019,35,1819
+2019-04-28,12:00 AM,Leicester,Arsenal,"King Power Stadium, Leicester",Optus,2019,36,1819
+2019-04-28,12:00 AM,Southampton,Bournemouth,"St.Mary’s Stadium, Southampton",Optus,2019,36,1819
+2019-04-28,12:00 AM,Brighton,Newcastle,"Amex Stadium, Falmer",Optus,2019,36,1819
+2019-04-28,12:00 AM,Burnley,Man City,"Turf Moor, Burnley",Optus,2019,36,1819
+2019-04-28,12:00 AM,Fulham,Cardiff,"Craven Cottage, London",Optus,2019,36,1819
+2019-04-28,12:00 AM,Man United,Chelsea,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2019,36,1819
+2019-04-28,12:00 AM,Crystal Palace,Everton,"Selhurst Park, London","Optus, Fox Sports (delay)",2019,36,1819
+2019-04-28,12:00 AM,Liverpool,Huddersfield,"Anfield, Liverpool","Optus, Fox Sports (delay)",2019,36,1819
+2019-04-28,12:00 AM,Tottenham,West Ham,"Tottenham Hotspur Stadium, London",Optus,2019,36,1819
+2019-04-28,12:00 AM,Watford,Wolves,"Vicarage Road, Watford",Optus,2019,36,1819
+2019-05-05,12:00 AM,Arsenal,Brighton,"Emirates Stadium, London",Optus,2019,37,1819
+2019-05-05,12:00 AM,Bournemouth,Tottenham,"Vitality Stadium, Bournemouth",Optus,2019,37,1819
+2019-05-05,12:00 AM,Everton,Burnley,"Goodison Park, Liverpool",Optus,2019,37,1819
+2019-05-05,12:00 AM,Cardiff,Crystal Palace,"Cardiff City Staduim, Cardiff",Optus,2019,37,1819
+2019-05-05,12:00 AM,Chelsea,Watford,"Stamford Bridge, London","Optus, Fox Sports (delay)",2019,37,1819
+2019-05-05,12:00 AM,Wolves,Fulham,"Molineux Stadium, Wolverhampton",Optus,2019,37,1819
+2019-05-05,12:00 AM,Huddersfield,Man United,"John Smith’s Stadium, Huddersfield","Optus, Fox Sports (delay)",2019,37,1819
+2019-05-05,12:00 AM,Man City,Leicester,"Etihad Stadium, Manchester",Optus,2019,37,1819
+2019-05-05,12:00 AM,Newcastle,Liverpool,"St.James’ Park, Newcastle","Optus, Fox Sports (delay)",2019,37,1819
+2019-05-05,12:00 AM,West Ham,Southampton,"London Stadium, London",Optus,2019,37,1819
+2019-05-13,12:00 AM,Burnley,Arsenal,"Turf Moor, Burnley",Optus,2019,38,1819
+2019-05-13,12:00 AM,Crystal Palace,Bournemouth,"Selhurst Park, London",Optus,2019,38,1819
+2019-05-13,12:00 AM,Brighton,Man City,"Amex Stadium, Falmer",Optus,2019,38,1819
+2019-05-13,12:00 AM,Man United,Cardiff,"Old Trafford, Manchester","Optus, Fox Sports (delay)",2019,38,1819
+2019-05-13,12:00 AM,Leicester,Chelsea,"King Power Stadium, Leicester","Optus, Fox Sports (delay)",2019,38,1819
+2019-05-13,12:00 AM,Tottenham,Everton,"Tottenham Hotspur Stadium, London",Optus,2019,38,1819
+2019-05-13,12:00 AM,Fulham,Newcastle,"Craven Cottage, London",Optus,2019,38,1819
+2019-05-13,12:00 AM,Southampton,Huddersfield,"St.Mary’s Stadium, Southampton",Optus,2019,38,1819
+2019-05-13,12:00 AM,Liverpool,Wolves,"Anfield, Liverpool","Optus, Fox Sports (delay)",2019,38,1819
+2019-05-13,12:00 AM,Watford,West Ham,"Vicarage Road, Watford",Optus,2019,38,1819
