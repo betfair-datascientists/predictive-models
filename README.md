@@ -10,7 +10,8 @@ This repo aims to educate the Betfair community on creating your own end-to-end 
 * We have created [FIFA World Cup 2018 modelling tutorial](https://github.com/betfair-datascientists/Predictive-Models/tree/master/World-Cup-2018), including a Machine Learning Walkthrough and Elo Model Walkthrough.
 
 ## Links to Current Predictions
-* [Greyhound Rating Model Predictions](https://www.betfair.com.au/hub/tools/models/greyhound-ratings-model/)
+* [Greyhound Predictions Model](https://www.betfair.com.au/hub/tools/models/greyhound-ratings-model/)
+* [EPL Predictions Model](https://www.betfair.com.au/hub/tools/models/epl-predictions-model/)
 
 ## Disclaimer
 Note that whilst predictions are fun and rewarding to create, we can't promise that your betting strategy will be profitable. If implementing your own strategies please gamble responsibly and note that you are responsible for any winnings/losses incurred.
