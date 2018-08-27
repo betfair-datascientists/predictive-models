@@ -30,4 +30,4 @@ If you don't already have Python installed, we advise you to install it through 
 [This tutorial](https://github.com/betfair-datascientists/Predictive-Models/blob/master/EPL-Predictions-Model/04.%20Weekly%20Predictions.ipynb) will create weekly predictions for each Gameweek. These will be posted on [The Hub](https://www.betfair.com.au/hub/tools/models/epl-predictions-model/). You can also view what the model predicted in previous Gameweeks.
 
 ## 05. Analysing Predictions & Staking Strategies
-[This tutorial] (yet to be published) will analyse our predictions for the previous season and focus on iterative improvement. We will also analyse if the model is profitable and try to create profitable betting strategies which we can implement with Betfair's API.
+This tutorial (yet to be published) will analyse our predictions for the previous season and focus on iterative improvement. We will also analyse if the model is profitable and try to create profitable betting strategies which we can implement with Betfair's API.
