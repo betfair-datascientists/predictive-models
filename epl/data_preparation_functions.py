@@ -52,7 +52,7 @@ def create_betting_df(path):
 		betting_cols = ['B365A', 'B365D', 'B365H', 'BWA', 'BWD', 'BWH', 'Bb1X2', 'BbAH', 'BbAHh', 'BbAv<2.5', 
 										'BbAv>2.5', 'BbAvA', 'BbAvAHA', 'BbAvAHH', 'BbAvD', 'BbAvH', 'BbMx<2.5', 'BbMx>2.5', 
 										'BbMxA', 'BbMxAHA', 'BbMxAHH', 'BbMxD', 'BbMxH', 'BbOU', 'Day', 'Div', 'IWA', 'IWD', 
-										'IWH', 'LBA', 'LBD', 'LBH', 'Month', 'VCA', 'VCD', 'VCH', 'WHA', 'WHD', 'WHH', 'Year', 
+										'IWH', 'LBA', 'LBD', 'LBH', 'Month', 'VCA', 'VCD', 'VCH', 'Year', 
 										'homeWin', 'awayWin', 'result', 'HomeTeam', 'AwayTeam', 'gameId']
 		
 		betting = df[betting_cols].copy()
@@ -453,8 +453,10 @@ def create_feature_df(df=None):
 	betting_cols = ['B365A', 'B365D', 'B365H', 'BWA', 'BWD', 'BWH', 'Bb1X2', 'BbAH', 'BbAHh', 'BbAv<2.5', 
 							'BbAv>2.5', 'BbAvA', 'BbAvAHA', 'BbAvAHH', 'BbAvD', 'BbAvH', 'BbMx<2.5', 'BbMx>2.5', 
 							'BbMxA', 'BbMxAHA', 'BbMxAHH', 'BbMxD', 'BbMxH', 'BbOU', 'Day', 'Div', 'IWA', 'IWD', 
-							'IWH', 'LBA', 'LBD', 'LBH', 'Month', 'VCA', 'VCD', 'VCH', 'WHA', 'WHD', 'WHH', 'Year', 
+							'IWH', 'LBA', 'LBD', 'LBH', 'Month', 'VCA', 'VCD', 'VCH', 'Year', 
 							'homeWin', 'awayWin', 'result', 'HomeTeam', 'AwayTeam', 'gameId']
+	betting_cols = [col for col in betting_cols if col in betting_cols and col in df]
+
 
 	team_info = df[['gameId', 'Date', 'season', 'HomeTeam', 'AwayTeam', 'FTR', 'HTR', 'Referee']].copy()                  
 	stats = df[stats_cols].copy()
