@@ -5,7 +5,7 @@ This repo includes some of the Data Scientist team's open source predictive mode
 This repo aims to educate the Betfair community on creating your own end-to-end models to predict sport. It will be extremely informative and descriptive; the goal is for those without much coding experience to be able to read through the process and understand what is being done.
 
 ## Tutorials
-* In our [EPL Predictions Tutorial](https://github.com/betfair-datascientists/predictive-models/tree/master/epl) we have used publically available data to model odds and create an automated betting strategie.
+* In our [EPL Predictions Tutorial](https://github.com/betfair-datascientists/predictive-models/tree/master/epl), we have used publically available data to model odds and create an automated betting strategy.
 * Read through our [AFL Predictions Tutorial/Machine Learning Walkthrough](https://github.com/betfair-datascientists/predictive-models/tree/master/afl). This generates weekly predictions for the AFL.
 * We have created [FIFA World Cup 2018 Modelling Tutorial](https://github.com/betfair-datascientists/predictive-models/tree/master/world-cup), including a Machine Learning Walkthrough and Elo Model Walkthrough.
 
