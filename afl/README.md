@@ -1,11 +1,11 @@
 
 
 # AFL Weekly Predictive Model
-These tutorials will walk you through how to create your own basic AFL predictive model. We will use Python as our language of choice. The output will be the predicted winner for each game, which will be posted below weekly.
+These tutorials will walk you through how to create your own basic AFL predictive model. We will use Python as our language of choice. The output will be modelled odds for each game, which will be posted below weekly.
 
 For the interactive tutorials, download and walk through the Jupyter notebook files (.ipynb). If you want to jump ahead, we have also created scripts which prepare all the data from the previous tutorial. These are the (.py) files.
 
-The goal for future iterations of this tutorial is to change the output to output odds, which will then allow us to create automated betting strategy on Betfair. Currently, the tutorial can predict the winner of future AFL games. Stay tuned for updates.
+The goal for future iterations of this tutorial is to create automated betting strategy on Betfair. Stay tuned for updates.
 
 ## This Week's Predictions
 The predictions below are created from the afl_modelling script. For a detailed walkthrough of how we got these predictions, please have a look at the tutorials below.
@@ -14,27 +14,17 @@ The predictions below are created from the afl_modelling script. For a detailed 
 preds = afl_modelling.prepare_afl_predictions_df()
 print(preds)
 '''
-       home_team         away_team Predicted Winner  home_odds  away_odds  \
-0  Port Adelaide          Essendon    Port Adelaide       1.71       2.42   
-1        Geelong        Gold Coast          Geelong       1.03      38.00   
-2       Richmond  Western Bulldogs         Richmond       1.11       9.00   
-3      Fremantle       Collingwood      Collingwood       6.40       1.18   
-4         Sydney          Hawthorn           Sydney       1.74       2.32   
-5        Carlton          Adelaide         Adelaide       8.20       1.14   
-6       Brisbane        West Coast         Brisbane       2.58       1.63   
-7      Melbourne               GWS        Melbourne       1.53       2.92   
-8       St Kilda   North Melbourne         St Kilda       3.80       1.35   
+        date   home_team    away_team          venue  modelled_home_odds  \
+0 2018-09-06    Richmond     Hawthorn            MCG            1.200786   
+1 2018-09-07   Melbourne      Geelong            MCG            1.475141   
+2 2018-09-08      Sydney          GWS            SCG            2.176085   
+3 2018-09-08  West Coast  Collingwood  Optus Stadium            1.857281   
 
-      home_elo     away_elo  
-0  1549.809163  1510.090428  
-1  1648.870232  1282.313681  
-2  1633.082758  1442.835490  
-3  1421.059791  1515.584772  
-4  1642.145056  1606.451621  
-5  1248.165593  1627.304629  
-6  1292.723413  1576.920238  
-7  1524.181803  1602.203161  
-8  1410.547366  1465.710806  
+   modelled_away_odds  odds  odds_away   f_elo_home   f_elo_away  
+0            5.980428  1.41       3.40  1695.224151  1632.526671  
+1            3.104637  1.86       2.18  1558.566657  1625.423155  
+2            1.850279  1.83       2.22  1645.548991  1597.415860  
+3            2.166478  1.66       2.52  1625.871702  1560.370309 
 '''
 ```
 
@@ -106,4 +96,4 @@ If you want to skip ahead to the modelling tutorial, simply download the afl_dat
 [This tutorial](https://github.com/betfair-datascientists/Predictive-Models/blob/master/AFL-Weekly-Predictive-Model/03.%20afl_modelling.ipynb) walks you through the modelling phase where we try out a range of different algorithms for predictions. We then choose and optimise the best algorithms for our task, which we use to create predictions in the final tutorial.
 
 ## AFL Predictions Tutorial
-Finally, [this tutorial](https://github.com/betfair-datascientists/Predictive-Models/blob/master/AFL-Weekly-Predictive-Model/04.%20afl_weekly_predictions.ipynb) walks you through the process of generating weekly predictions for AFL games. In future iterations of this tutorial we will add a how-to on setting up an automated betting strategy using your generated predictions and Betfair's API. These predictions will be posted on [The Hub](https://www.betfair.com.au/hub/tools/models/afl-prediction-model/) weekly, as well as on this page.
+Finally, [this tutorial](https://github.com/betfair-datascientists/Predictive-Models/blob/master/AFL-Weekly-Predictive-Model/04.%20afl_weekly_predictions.ipynb) walks you through the process of generating weekly predictions/odds for AFL games. In future iterations of this tutorial we will add a how-to on setting up an automated betting strategy using your generated predictions and Betfair's API.
