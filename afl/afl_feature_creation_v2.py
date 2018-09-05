@@ -9,9 +9,6 @@ from afl_data_cleaning_v2 import *
 import afl_data_cleaning_v2
 import pandas as pd
 pd.set_option('display.max_columns', None)
-from afl_data_cleaning import prepare_match_results
-import warnings
-warnings.filterwarnings('ignore')
 import numpy as np
 
 

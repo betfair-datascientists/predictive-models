@@ -2,11 +2,9 @@
 from afl_feature_creation_v2 import prepare_afl_features
 import afl_data_cleaning_v2
 import afl_feature_creation_v2
-import afl_modelling
 import datetime
 import pandas as pd
 import numpy as np
-pd.set_option('display.max_columns', None)
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 
