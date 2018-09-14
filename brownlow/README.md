@@ -1,11 +1,11 @@
 # Brownlow
 
 ## Analysis Of AFL's Modelling Walkthrough
-These tutorials will walk you through how to model the Brownlow Medal in R. We have teamed up with [Analysis Of AFL](https://twitter.com/anoafl), the co-creator of the fitzRoy package, to create an end-to-end walk through of how he modelled the Brownlow.
+These tutorials will walk you through how to model the Brownlow Medal in R. We have teamed up with [Analysis Of AFL](https://twitter.com/anoafl), the co-creator of the [fitzRoy](https://github.com/jimmyday12/fitzRoy) package, to create an end-to-end walk through of how he modelled the Brownlow.
 
 You are welcome to grab this code and chop and change the variables to how you see fit. Feel free to add additional variables and try to improve the model to make it your own.
 
-The [takinghomecharlie](https://github.com/betfair-datascientists/predictive-models/blob/master/brownlow/takinghomecharlie_end_to_end.R) walks you through the modelling process.
+The [takinghomecharlie](https://github.com/betfair-datascientists/predictive-models/blob/master/brownlow/takinghomecharlie_end_to_end.R) R script walks you through the modelling process. It is reproducible on any computer and uses the fitzRoy package to grab data.
 
 The [takinghomecharlie R Markdown Script](https://github.com/betfair-datascientists/predictive-models/blob/master/brownlow/takinghomecharlie.Rmd) has detailed explanations of each step - although you will need to render this yourself in R Studio.
 
