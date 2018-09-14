@@ -1,0 +1,395 @@
+---
+title: "Taking Home Charlie"
+author: "Robert Nguyen"
+date: "7 September 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(fitzRoy)
+library(tidyverse)
+library(ordinal)
+library(MASS)
+```
+
+## Build your own Brownlow Model
+
+G'day all, your friendly neighbourhood PhD student here. I am here to help you all build your own models. 
+
+That is very different from what you might be used to which could consist of any one of the following scenarios. 
+
+* Here is a model I have build that you are not smart enough too, follow my tips blindly
+* Here is a model that I have build with data you don't have access to, therefore it is better than what you can do follow my tips
+* Here is a model that I don't explain well apart from performance, follow my tips
+
+Hopefully you see my point and see the unfortunate pattern. 
+
+This is **NOT** going to be one of those things, this is a guide to help you build a competitive Brownlow prediction model. It is fully reproducible and you can use the variables created if you want, you can create your own variables but by the end of this process the model is yours. 
+
+So let me try to ease some possible thoughts.
+
+1. Where can I get the data from? 
+
+[James Day](https://twitter.com/jamesday87) and [myself](https://twitter.com/anoafl) have worked together to produce an R package called [fitzRoy](https://github.com/jimmyday12/fitzRoy) which means that you and anyone else can have easy access to all the good stuff you see on [afltables](https://afltables.com/afl/afl_index.html) and [footywire](https://www.footywire.com/). 
+
+2. But what is the point other people do models why build my own when I can just use someone elses? 
+
+That is a good point, there are Brownlow Models floating around, and you could even go to a tipping service and pay for tips. But I assume you are interested in predicting the Brownlow Medalist because you are a football nuffie and as such have ideas about what *you* think have an effect on how umpires vote. 
+
+3. So if I have the data and I can build my own model, but I don't want to because it won't be any good.
+
+All models are wrong but some are useful -- This model is by no means perfect, that isn't the point. But it will provide you a predicted order that has less ranking error vs Champion Datas official prediction using data that you don't have access to without $$$$
+
+4. So what?
+
+In a nutshell, below is a fully reproducible method you can edit and tinker with that without any tinkering with produced a better top 10 Brownlow Medal prediction vs the official data provider without any of the bells and whistles!
+
+## What Packages do I need?
+
+
+```{r }
+library(MASS)
+library(ordinal)
+library(fitzRoy)
+library(tidyverse)
+```
+
+So now you have the packages you need, first steps lets get the data ready
+
+## Getting the data 
+
+First we can use the [fitzRoy](https://github.com/jimmyday12/fitzRoy) package to get all the data from [afltables](https://afltables.com/afl/seas/2018.html)
+
+This will consist of basically 3 steps
+
+1. Get the data from afltables, we can do this using the `fitzRoy::get_afltables_stats`
+
+2. Create the game by game summaries so we have the total kicks per game, total handballs per game by team for all the statistics available on [afltables](https://afltables.com/afl/stats/games/2018/031420180322.html)
+
+3. Join on scores - because people feel as though margin has an effect on the order of 3,2,1 (Hard to ge the 3 votes in a flogging)
+
+We do this using the `fitzRoy::match_results` and then we join the datasets together creating a final data frame that has all player statistics at an individual level, joined with their team totals and game score. 
+
+
+
+```{r}
+df<-fitzRoy::get_afltables_stats(start_date = "1897-01-01", end_date = Sys.Date())
+df<-df%>%filter(Season>2010)
+# df<-fitzRoy::afldata
+names(df)
+team_stats<-df%>%
+  dplyr::select(Date, First.name,Surname,Season, Round, Playing.for, Kicks:Goal.Assists)%>%
+  group_by(Date, Season, Round, Playing.for)%>%
+  summarise_if(is.numeric,funs(sum=c(sum(.))))
+
+player_stats<-df%>%
+  dplyr::select(Date, First.name,Surname,Season, Round, Playing.for, Kicks:Goal.Assists)
+
+complete_df<-left_join(player_stats,team_stats, by=c("Date"="Date", "Season"="Season",  "Playing.for"="Playing.for"))
+
+dataset_scores<-fitzRoy::match_results
+names(dataset_scores)
+dataset_scores1<-dataset_scores%>%dplyr::select (Date, Round, Home.Team, Home.Points,Game)
+dataset_scores2<-dplyr::select(dataset_scores, Date, Round, Away.Team, Away.Points,Game)
+
+colnames(dataset_scores1)[3]<-"Team"
+colnames(dataset_scores1)[4]<-"Points"
+colnames(dataset_scores2)[3]<-"Team"
+colnames(dataset_scores2)[4]<-"Points"
+
+df5<-rbind(dataset_scores1,dataset_scores2)
+dataset_margins<-df5%>%group_by(Game)%>%
+  arrange(Game)%>%
+  mutate(margin=c(-diff(Points),diff(Points)))
+# View(dataset_margins)
+dataset_margins$Date<-as.Date(dataset_margins$Date)
+complete_df$Date<-as.Date(complete_df$Date)
+
+complete_df<-left_join(complete_df,dataset_margins,by=c("Date"="Date",  "Playing.for"="Team"))
+
+```
+
+## Create the Ratios
+
+Create ratios is important for the model, remember we are interested in their relative performance to their peers. Is it impressive kicking 3 goals if 25 have been kicked? Or is it more impressive getting 3 if only 5 goals have been kicked? 
+
+Intiuition like this for kicks, handballs, clearances etc would lead us to believe that ratios are better predictors of polling votes over raw statistics. 
+
+```{r}
+complete_df_ratio<-complete_df%>%
+  mutate(kick.ratio=Kicks/Kicks_sum,
+         Marks.ratio=Marks/Marks_sum,
+         handball.ratio=Handballs/Handballs_sum,
+         Goals.ratio=Goals/Goals_sum,
+         behinds.ratio=Behinds/Behinds_sum,
+         hitouts.ratio=Hit.Outs/Hit.Outs_sum,
+         tackles.ratio=Tackles/Tackles_sum,
+         rebounds.ratio=Rebounds/Rebounds_sum,
+         inside50s.ratio=Inside.50s/Inside.50s_sum,
+         clearances.ratio=Clearances/Clearances_sum,
+         clangers.ratio=Clangers/Clangers_sum,
+         freefors.ratio=Frees.For/Frees.For_sum,
+         freesagainst.ratio=Frees.Against/Frees.Against_sum,
+         Contested.Possessions.ratio=Contested.Possessions/Contested.Possessions_sum,
+         Uncontested.Possessions.ratio=Uncontested.Possessions/Uncontested.Possessions_sum,
+         contested.marks.ratio=Contested.Marks/Contested.Marks_sum,
+         marksinside50.ratio=Marks.Inside.50/Marks.Inside.50_sum,
+         one.percenters.ratio=One.Percenters/One.Percenters_sum,
+         bounces.ratio=Bounces/Bounces_sum,
+         goal.assists.ratio=Goal.Assists/Goal.Assists_sum,
+         disposals.ratio=(Kicks+Handballs)/(Kicks_sum+Handballs_sum))
+df<-complete_df_ratio%>%dplyr::select(Date, First.name, Surname, Season, Round.x, Playing.for,-Brownlow.Votes, Brownlow.Votes_sum,everything())
+df<-df%>%dplyr::select(-Brownlow.Votes,everything())
+df[is.na(df)] <- 0
+
+
+```
+
+
+Now we have all that we need for the dataset now lets do some modelling!
+
+## Fit a proportional odds model
+
+Basically all we are doing is using the dataset we have and fitting a proportional odds model. What this means is that we will end up with a probability that each player will poll 3 votes, 2 votes, 1 vote and 0 votes for each and every single game. 
+
+This will involve a few steps
+
+1. use `subset` to get our training data
+2. use `filter` to make sure we only have home and away games --this is a data knowledge step, we know that you can not get votes in finals, but the column instead of being left empty is filled with 0s so an easy way to make sure we only have home and away games is using Round as a filter.
+3. standardise our variables using `scale`
+
+```{r}
+in.sample  <- subset(df, Season %in% c(2013:2016))
+# out.sample <- subset(df, Season == 2014)
+in.sample$Brownlow.Votes <- factor(in.sample$Brownlow.Votes)
+
+in.sample<-in.sample%>%filter(Round.x %in% c("1","2","3","4","5","6","7","8",
+                                             "9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"))
+
+
+names(in.sample)
+
+in.sample$Player<-paste(in.sample$First.name,in.sample$Surname)
+
+in.sample<-in.sample%>%dplyr::select(Player, Date, Season, Round.x, Playing.for, margin:Brownlow.Votes)
+in.sample<-in.sample[-c(1,2)]
+
+temp1<-scale(in.sample[,6:27])
+in.sample[,6:27]<-temp1
+#attributes(temp1)
+temp1.center<-attr(temp1,"scaled:center")
+temp1.scale<-attr(temp1,"scaled:scale")
+
+
+
+
+
+
+
+fm1<-clm(Brownlow.Votes~ handball.ratio +  Marks.ratio +  
+           disposals.ratio+  hitouts.ratio+
+           freefors.ratio +  freesagainst.ratio +  tackles.ratio +	Goals.ratio +	behinds.ratio +	Contested.Possessions.ratio+
+           Uncontested.Possessions.ratio +	clangers.ratio +	contested.marks.ratio +	marksinside50.ratio +
+           clearances.ratio +	rebounds.ratio +	inside50s.ratio +	one.percenters.ratio +	bounces.ratio+
+           goal.assists.ratio  +margin, 
+         data = in.sample)
+
+```
+
+## Variable selection
+
+Nothing fancy here, remember the point is that you can pick and choose what variables you want as your predictors, here I am just going to use stepwise selection and go backwards. 
+
+But by all means, I am not saying this is the best way, I'm just getting to a result as quickly as I can with little thinking about the variables. 
+
+Ideally you might think about the variables and test them out for fit but moving on.
+
+```{r}
+fm2<- stepAIC(fm1, direction='backward',type=AIC)
+
+```
+## Lets do the prediction
+
+Instead of just taking the data from [afltables](https://afltables.com/afl/seas/2018.html) in 2017, lets do something just a little bit different. Lets use [footywire](https://www.footywire.com/) as our out.sample 
+
+This might seem like a bit of a weird step, but it is really valuable. Footywire has more data than afltables for games, it contains stats like tackles inside 50 as an example. 
+
+
+
+```{r}
+names(fitzRoy::player_stats)
+df_2017<-fitzRoy::player_stats%>%
+  filter(Season==2017)
+
+team_stats_out<-df_2017%>%
+  dplyr::select(Date, Player,Season, Round, Team, CP:T5)%>%
+  group_by(Date,Season, Round, Team)%>%
+  summarise_if(is.numeric,funs(sum=c(sum(.))))
+
+player_stats_out<-df_2017%>%
+  dplyr::select(Date, Player,Season, Round, Team, CP:T5)
+
+
+complete_df_out<-left_join(player_stats_out,team_stats_out, by=c("Date"="Date", "Season"="Season",  "Team"="Team"))
+
+
+
+dataset_scores<-fitzRoy::match_results
+names(dataset_scores)
+dataset_scores1<-dataset_scores%>%dplyr::select (Date, Round, Home.Team, Home.Points,Game)
+dataset_scores2<-dplyr::select(dataset_scores, Date, Round, Away.Team, Away.Points,Game)
+
+colnames(dataset_scores1)[3]<-"Team"
+colnames(dataset_scores1)[4]<-"Points"
+colnames(dataset_scores2)[3]<-"Team"
+colnames(dataset_scores2)[4]<-"Points"
+
+
+df5<-rbind(dataset_scores1,dataset_scores2)
+dataset_margins<-df5%>%group_by(Game)%>%
+  arrange(Game)%>%
+  mutate(margin=c(-diff(Points),diff(Points)))
+dataset_margins$Date<-as.Date(dataset_margins$Date)
+complete_df_out$Date<-as.Date(complete_df_out$Date)
+
+dataset_margins<-dataset_margins %>%mutate(Team = str_replace(Team, "Brisbane Lions", "Brisbane"))
+
+dataset_margins<-dataset_margins %>%mutate(Team = str_replace(Team, "Footscray", "Western Bulldogs"))
+
+
+complete_df_out<-left_join(complete_df_out,dataset_margins,by=c("Date"="Date",  "Team"="Team"))
+
+names(complete_df_out)
+
+####create the new ratios
+complete_df_ratio_out<-complete_df_out%>%
+  mutate(kick.ratio=K/K_sum,
+         Marks.ratio=M/M_sum,
+         handball.ratio=HB/HB_sum,
+         Goals.ratio=G/G_sum,
+         behinds.ratio=B/B_sum,
+         hitouts.ratio=HO/HO_sum,
+         tackles.ratio=T/T_sum,
+         rebounds.ratio=R50/R50_sum,
+         inside50s.ratio=I50/I50_sum,
+         clearances.ratio=(CCL+SCL)/(CCL_sum+SCL_sum),
+         clangers.ratio=CL/CL_sum,
+         freefors.ratio=FF/FF_sum,
+         freesagainst.ratio=FA/FA_sum,
+         Contested.Possessions.ratio=CP/CP_sum,
+         Uncontested.Possessions.ratio=UP/UP_sum,
+         contested.marks.ratio=CM/CM_sum,
+         marksinside50.ratio=MI5/MI5_sum,
+         one.percenters.ratio=One.Percenters/One.Percenters_sum,
+         bounces.ratio=BO/BO_sum,
+         goal.assists.ratio=GA/GA_sum,
+         disposals.ratio=D/D_sum)
+
+
+
+
+conforming<-complete_df_ratio_out%>%
+  dplyr::select(Player, Date, Season, Round.x, Team, margin, 
+                kick.ratio:disposals.ratio)
+
+conforming$Brownlow.Votes<-0
+out.sample=conforming
+
+newdata   <- out.sample[ , -ncol(out.sample)]
+
+newdata[,6:27]<-scale(newdata[,6:27],center=temp1.center,scale=temp1.scale) 
+
+pre.dict    <- predict(fm2,newdata=newdata, type='prob')
+pre.dict.m  <- data.frame(matrix(unlist(pre.dict), nrow= nrow(newdata)))
+colnames(pre.dict.m) <- c("vote.0", "vote.1", "vote.2", "vote.3")
+
+newdata.pred  <- cbind.data.frame(newdata, pre.dict.m)
+
+```
+
+## Expected Votes
+
+A proportional odds model makes the players total probabalities for each voting category sum to 1 for every player that the player plays in. 
+
+But we know that there is another harder restriction. That is only one player can get 3 votes, only one player can get 2 votes and only one player can get the 1 vote. 
+
+But if we were to stop here, and we were to sum up the expected probabilities for every game. What we would see is that the expected 3 votes would sum to be over 3 which doesn't make a lot of sense does it? So lets change that so each voting categories sum to the actual expectation. 
+
+
+```{r}
+#### Step 1: Get expected value on Votes
+newdata.pred$expected.votes <- newdata.pred$vote.1 + 2*newdata.pred$vote.2 + 3*newdata.pred$vote.3
+
+####Join back on matchID whoops!
+
+get_match_ID<-fitzRoy::player_stats
+
+xx<-get_match_ID%>%dplyr::select(Date, Player, Match_id)
+newdata.pred<-left_join(newdata.pred, xx, by=c("Date"="Date",  "Player"="Player"))
+
+
+
+newdata.pred<-filter(newdata.pred, Date<"2017-09-01")
+
+
+sum1 <- aggregate(vote.1~Match_id, data = newdata.pred, FUN = sum ); names(sum1) <- c("Match_id", "sum.vote.1");
+sum2 <- aggregate(vote.2~Match_id, data = newdata.pred, FUN = sum ); names(sum2) <- c("Match_id", "sum.vote.2");
+sum3 <- aggregate(vote.3~Match_id, data = newdata.pred, FUN = sum ); names(sum3) <- c("Match_id", "sum.vote.3");
+
+#### Step 3: Add sum of each vote by matchId to big table
+newdata.pred <- merge(newdata.pred, sum1, by = "Match_id")
+newdata.pred <- merge(newdata.pred, sum2, by = "Match_id")
+newdata.pred <- merge(newdata.pred, sum3, by = "Match_id")
+
+#### Step 4: Add std1/2/3
+newdata.pred$std.1  <- (newdata.pred$sum.vote.1/newdata.pred$vote.1)^-1
+newdata.pred$std.2  <- (newdata.pred$sum.vote.2/newdata.pred$vote.2)^-1
+newdata.pred$std.3  <- (newdata.pred$sum.vote.3/newdata.pred$vote.3)^-1
+
+
+#### Step 5: Expected standard game vote
+newdata.pred$exp_std_game_vote <- newdata.pred$std.1 + 2*newdata.pred$std.2 + 3*newdata.pred$std.3  
+
+
+#### Step 6: List of winners
+
+newdata.pred$PlayerName<-paste(newdata.pred$Player," ",newdata.pred$Team)
+winners.stdgame   <- aggregate(exp_std_game_vote~PlayerName, data = newdata.pred, FUN = sum );
+winners.stdgame   <- winners.stdgame[order(-winners.stdgame$exp_std_game_vote), ]
+winners.stdgame[1:10, ]
+
+
+```
+
+## But how good is this prediction?
+
+We want our predicted order to be as close to correct as possible, especially for the top 10. 
+
+So lets use as a measure of accuracy ranking error which I will define as difference between actual place vs predicted place. For example we have predicted Dustin Martin to finish first and he did so error is 0, if we predicted Dustin Martin to be runner up (like Champion Data did) then we would have a ranking error of 1. 
+
+
+```{r}
+
+library(tidyverse)
+data.frame(stringsAsFactors=FALSE,
+           Predictor = c("anoafl", "anoafl", "anoafl", "anoafl", "anoafl", "anoafl", "anoafl", "anoafl",
+                         "anoafl", "anoafl", "anoafl", "anoafl", "anoafl", "anoafl", "CD", "CD", "CD", "CD", "CD",
+                         "CD", "CD", "CD", "CD", "CD", "CD", "CD", "CD", "CD"),
+           Player = c("Dustin Martin", "Patrick DangerField", "Tom Mitchell",
+                      "Dayne Zorko", "Josh Kelly", "Rory Laird", "Zach Merrett", "Rory Sloan",
+                      "Lance Franklin", "Nat Fyfe", "Trent Cotchin", "Clayton Oliver",
+                      "Callan Ward", "Marcus Bontempelli", "Patrick DangerField", "Dustin Martin",
+                      "Clayton Oliver", "Tom Mitchell", "Rory Sloan", "Callan Ward", "Zach Merrett",
+                      "Marcus Bontempelli", "Josh Kelly", "Trent Cotchin", "Rory Laird", "Lance Franklin",
+                      "Nat Fyfe", "Dayne Zorko"),
+           Ranking.Error = c(0L, 0L, 0L, 12L, 1L, 38L, 5L, 1L, 4L, 2L, 11L, 28L, 8L,
+                             5L, 1L, 1L, 23L, 1L, 2L, 22L, 5L, 0L, 3L, 41L, 30L, 6L, 4L, 10L)
+)%>%ggplot(aes(x=Ranking.Error, y=Player))+geom_point(aes(colour=Predictor), size=5)+ theme(axis.text.y=element_text(size=12)) +ylab("") 
+
+
+```
+
+So what we can see here is that by taking just the basic data and making them into game ratios and thinking a bit more about probability with little thought into variable selection (backwards) we can come up with a prediction that does just as well (if not a little better) as champion data (although obviously biased).
+
+
