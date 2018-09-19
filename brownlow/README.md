@@ -34,3 +34,13 @@ print(agg_predictions_2018.head(15))
 13   S Sidebottom       Collingwood               14.863136        18
 14         N Fyfe         Fremantle               14.692243        11
 ```
+
+### Requirements
+Note that there are a few library requirements to run the python notebook. These are:
+* pandas
+* [h2o](http://docs.h2o.ai/h2o/latest-stable/h2o-docs/downloading.html)
+* numpy
+* sklearn
+* pickle
+
+Simply use pip install to install these libraries, or google how to install them. For h2o specifically, click the link and follow the instructions.
