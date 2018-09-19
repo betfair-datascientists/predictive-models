@@ -12,7 +12,7 @@ The [takinghomecharlie R Markdown Script](https://github.com/betfair-datascienti
 Alternatively, we have rendered it for you, simply download the [Taking Home Charlie HTML Document](https://github.com/betfair-datascientists/predictive-models/blob/master/brownlow/Taking%20Home%20Charlie.html) and read along on any browser. Note that unlike Jupyter Notebooks, this won't render on GitHub.
 
 ## Betfair Data Scientist's Modelling Walkthrough
-[This tutorial](https://github.com/betfair-datascientists/predictive-models/blob/master/brownlow/Betfair%20Data%20Scientists'%20Brownlow%20Model.ipynb) will walk you through the EDA, feature creation and modelling process, and allow you to generate your own predictions for any year between 2012 and 2018. Below are the predicted top 20 for this year.
+[This tutorial](https://github.com/betfair-datascientists/predictive-models/blob/master/brownlow/Betfair%20Data%20Scientists'%20Brownlow%20Model.ipynb) will walk you through the EDA, feature creation and modelling process, and allow you to generate your own predictions for any year between 2012 and 2018. Below are the predicted top 15 for this year.
 
 ```Python
 
