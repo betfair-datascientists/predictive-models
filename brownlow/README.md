@@ -12,4 +12,25 @@ The [takinghomecharlie R Markdown Script](https://github.com/betfair-datascienti
 Alternatively, we have rendered it for you, simply download the [Taking Home Charlie HTML Document](https://github.com/betfair-datascientists/predictive-models/blob/master/brownlow/Taking%20Home%20Charlie.html) and read along on any browser. Note that unlike Jupyter Notebooks, this won't render on GitHub.
 
 ## Betfair Data Scientist's Modelling Walkthrough
-Tutorials from Betfair's Data Scientists will be available in the coming days. They will be in Python and R.
+This tutorial will walk you through the EDA, feature creation and modelling process, and allow you to generate your own predictions for any year between 2012 and 2018. Below are the predicted top 20 for this year.
+
+```Python
+
+print(agg_predictions_2018.head(15))
+           player              team  predicted_votes_scaled  match_id
+0      T Mitchell          Hawthorn               35.484614        20
+1          M Gawn         Melbourne               21.544278        22
+2        D Martin          Richmond               20.444488        19
+3        B Grundy       Collingwood               19.543511        22
+4        C Oliver         Melbourne               19.009628        20
+5        J Macrae  Western Bulldogs               18.931594        17
+6   P Dangerfield           Geelong               18.621242        21
+7         D Beams          Brisbane               17.621222        15
+8           E Yeo        West Coast               16.015638        20
+9         L Neale         Fremantle               15.495083        21
+10         A Gaff        West Coast               15.165629        18
+11      D Heppell          Essendon               15.083797        19
+12      J Selwood           Geelong               14.989096        18
+13   S Sidebottom       Collingwood               14.863136        18
+14         N Fyfe         Fremantle               14.692243        11
+```
