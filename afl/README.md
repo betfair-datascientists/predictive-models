@@ -15,16 +15,12 @@ preds = afl_modelling.prepare_afl_predictions_df()
 print(preds)
 '''
         date   home_team    away_team          venue  modelled_home_odds  \
-0 2018-09-06    Richmond     Hawthorn            MCG            1.200786   
-1 2018-09-07   Melbourne      Geelong            MCG            1.475141   
-2 2018-09-08      Sydney          GWS            SCG            2.176085   
-3 2018-09-08  West Coast  Collingwood  Optus Stadium            1.857281   
+0 2018-09-21    Richmond  Collingwood            MCG            1.304895   
+1 2018-09-22  West Coast    Melbourne  Optus Stadium            1.895771   
 
    modelled_away_odds  odds  odds_away   f_elo_home   f_elo_away  
-0            5.980428  1.41       3.40  1695.224151  1632.526671  
-1            3.104637  1.86       2.18  1558.566657  1625.423155  
-2            1.850279  1.83       2.22  1645.548991  1597.415860  
-3            2.166478  1.66       2.52  1625.871702  1560.370309 
+0            4.279819  1.42       3.40  1707.546289  1565.277390  
+1            2.116357  1.88       2.12  1638.076814  1576.417977  
 '''
 ```
 
