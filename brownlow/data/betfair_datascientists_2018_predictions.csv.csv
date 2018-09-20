@@ -1,0 +1,526 @@
+player,team,predicted_votes_scaled,games_played
+T Mitchell,Hawthorn,35.4846144,20
+M Gawn,Melbourne,21.54427768,22
+D Martin,Richmond,20.44448753,19
+B Grundy,Collingwood,19.54351096,22
+C Oliver,Melbourne,19.00962818,20
+J Macrae,Western Bulldogs,18.93159386,17
+P Dangerfield,Geelong,18.62124199,21
+D Beams,Brisbane,17.62122216,15
+E Yeo,West Coast,16.01563829,20
+L Neale,Fremantle,15.49508292,21
+A Gaff,West Coast,15.16562894,18
+D Heppell,Essendon,15.08379728,19
+J Selwood,Geelong,14.98909627,18
+S Sidebottom,Collingwood,14.86313634,18
+N Fyfe,Fremantle,14.69224345,11
+J Kennedy,Sydney,14.40448884,16
+Z Merrett,Essendon,13.63213071,18
+M Crouch,Adelaide,13.50385778,16
+R Laird,Adelaide,13.27486932,19
+P Cripps,Carlton,13.24056831,21
+G Ablett,Geelong,13.01895035,15
+L Franklin,Sydney,12.79247621,13
+J Lloyd,Sydney,12.17422426,20
+J Kelly,GWS,11.98215697,14
+C Ward,GWS,11.89244312,19
+S Coniglio,GWS,11.78527312,20
+S Higgins,North Melbourne,11.32759624,19
+O Wines,Port Adelaide,11.1187954,16
+L Parker,Sydney,10.6432024,18
+T Hawkins,Geelong,10.59543888,15
+J Riewoldt,Richmond,10.55774914,15
+A Treloar,Collingwood,10.48753461,11
+J Hogan,Melbourne,10.19887289,13
+S Pendlebury,Collingwood,10.05698758,19
+L Whitfield,GWS,9.953334845,20
+A Brayshaw,Melbourne,9.634155742,15
+R Gray,Port Adelaide,9.606960018,17
+B Brown,North Melbourne,9.550205414,13
+J Redden,West Coast,9.368163069,16
+L Breust,Hawthorn,9.286520765,16
+M Bontempelli,Western Bulldogs,9.272771458,16
+S Ross,St Kilda,9.093394867,17
+B Cunnington,North Melbourne,8.85729377,17
+J Darling,West Coast,8.656696244,11
+L Hunter,Western Bulldogs,8.349605539,17
+J Gunston,Hawthorn,8.341824328,19
+D Zorko,Brisbane,8.123914503,14
+S Menegola,Geelong,8.106791252,16
+J Steven,St Kilda,8.099163792,17
+T Adams,Collingwood,7.869065908,16
+K Simpson,Carlton,7.864994832,18
+B Gibbs,Adelaide,7.783425145,18
+C Sinclair,Sydney,7.673263109,15
+J Goey,Collingwood,7.547648334,10
+J Westhoff,Port Adelaide,7.35544919,21
+S Martin,Brisbane,7.243427917,19
+L Shuey,West Coast,6.947075465,13
+D Smith,Essendon,6.838857438,20
+J Omeara,Hawthorn,6.761239039,16
+T Cotchin,Richmond,6.741731926,12
+L Shiels,Hawthorn,6.67412698,15
+K Lambert,Richmond,6.392558182,12
+M Duncan,Geelong,6.215582996,19
+T Mcdonald,Melbourne,5.822324194,15
+J Polec,Port Adelaide,5.815971045,17
+T Kelly,Geelong,5.787585415,16
+C Wingard,Port Adelaide,5.712616014,16
+S Hurn,West Coast,5.70301224,18
+I Heeney,Sydney,5.668561882,16
+J Caddy,Richmond,5.601177397,12
+J Waite,North Melbourne,5.535818372,8
+T Goldstein,North Melbourne,5.509418744,17
+S Edwards,Richmond,5.47306913,15
+J Sicily,Hawthorn,5.317667892,13
+M Walters,Fremantle,5.120949158,12
+D Zaharakis,Essendon,5.047023883,13
+T Phillips,Collingwood,4.903292727,14
+J Jenkins,Adelaide,4.71159213,11
+N Jones,Melbourne,4.67440662,14
+R Atkins,Adelaide,4.672218148,11
+J Witts,Gold Coast,4.617273211,13
+J Harmes,Melbourne,4.56453515,12
+D Mundy,Fremantle,4.548975288,19
+J Ziebell,North Melbourne,4.334749986,13
+T Rockliff,Port Adelaide,4.142996046,8
+J Lyons,Gold Coast,4.043711315,14
+J Cameron,GWS,3.782533594,7
+H Shaw,GWS,3.734363824,15
+E Curnow,Carlton,3.725291724,19
+D Myers,Essendon,3.644958405,6
+J Steele,St Kilda,3.617769405,16
+E Langdon,Fremantle,3.568525325,12
+T Nankervis,Richmond,3.548149106,18
+C Dixon,Port Adelaide,3.510414454,9
+B Mcevoy,Hawthorn,3.497499417,14
+D Shiel,GWS,3.459265587,15
+J Dunkley,Western Bulldogs,3.418039153,14
+O Fantasia,Essendon,3.362331694,6
+I Smith,Hawthorn,3.359323525,15
+J Gresham,St Kilda,3.347069541,11
+B Ebert,Port Adelaide,3.30458398,15
+T Lynch,Adelaide,3.233425951,7
+T Boak,Port Adelaide,3.126726768,15
+T Dumont,North Melbourne,3.124214406,12
+T Mclean,Western Bulldogs,3.083461881,16
+J Mcgovern,West Coast,3.074965165,15
+J Thomas,Collingwood,3.062731717,10
+J Viney,Melbourne,3.05916165,5
+A Witherden,Brisbane,2.990432088,13
+C Blakely,Fremantle,2.979452458,8
+S Burgoyne,Hawthorn,2.965842421,10
+J Billings,St Kilda,2.901258582,11
+S Gray,Port Adelaide,2.870017658,4
+B Parfitt,Geelong,2.865211101,8
+B Fiorini,Gold Coast,2.798682843,6
+J Melksham,Melbourne,2.769278859,9
+J Kennedy,West Coast,2.743015976,4
+S Lycett,West Coast,2.741839924,12
+J Crisp,Collingwood,2.736712722,18
+H Greenwood,Adelaide,2.734996122,14
+T Jonas,Port Adelaide,2.698789881,13
+B Deledio,GWS,2.682391849,5
+S Thompson,North Melbourne,2.667978587,10
+A Young,Gold Coast,2.664994364,3
+R Sloane,Adelaide,2.653155903,9
+J Johannisen,Western Bulldogs,2.626575327,13
+A Rance,Richmond,2.62088167,13
+M Robinson,Brisbane,2.567569005,15
+T Lynch,Gold Coast,2.547005148,3
+B Ronke,Sydney,2.522227012,4
+S Pepper,Port Adelaide,2.496096544,9
+S Jacobs,Adelaide,2.477537515,12
+P Seedsman,Adelaide,2.453080347,13
+D Swallow,Gold Coast,2.407363633,15
+J Stringer,Essendon,2.387214647,7
+M Boer,GWS,2.334270701,8
+D Sheed,West Coast,2.310787977,5
+B Jacobs,North Melbourne,2.31046212,7
+C Curnow,Carlton,2.296108603,11
+H Mccluggage,Brisbane,2.294291218,10
+D Prestia,Richmond,2.29321196,8
+H Andrews,Brisbane,2.263658338,13
+D Armitage,St Kilda,2.259500537,8
+M Murphy,Carlton,2.246739018,10
+B Cox,Fremantle,2.211177254,4
+T Cutler,Brisbane,2.200547376,11
+T Bellchambers,Essendon,2.15443104,16
+T Taranto,GWS,2.145075229,15
+R Douglas,Adelaide,2.11135881,8
+A Sandilands,Fremantle,2.107512523,8
+L Mcdonald,North Melbourne,2.065368154,8
+D Menzel,Geelong,2.040772275,4
+L Ryan,Fremantle,2.031350008,13
+J Cripps,West Coast,2.023146547,14
+P Ahern,North Melbourne,2.023141408,5
+E Hipwood,Brisbane,1.879944026,3
+S Mckernan,Essendon,1.868584881,5
+T Stewart,Geelong,1.862652043,14
+T Membrey,St Kilda,1.82450091,8
+M Kreuzer,Carlton,1.813996541,5
+C Salem,Melbourne,1.768223855,11
+E Betts,Adelaide,1.752686336,9
+R Stanley,Geelong,1.74036688,10
+T Greene,GWS,1.724167038,2
+C Masten,West Coast,1.719022728,10
+D Thomas,Carlton,1.715941716,14
+S May,Gold Coast,1.672723069,7
+M Wood,North Melbourne,1.66121616,4
+N Naitanui,West Coast,1.654117212,13
+J Hopper,GWS,1.60729949,10
+C Yolmen,Adelaide,1.606978244,10
+M Mcgovern,Adelaide,1.605840659,5
+R Lobb,GWS,1.551663241,6
+N Vlastuin,Richmond,1.548498283,9
+M Hurley,Essendon,1.523192761,15
+A Bullen,Melbourne,1.517916297,10
+M Cox,Collingwood,1.505433909,6
+L Hodge,Brisbane,1.493931348,13
+P Ryder,Port Adelaide,1.48037328,11
+J Berry,Brisbane,1.463643917,12
+J Roughead,Hawthorn,1.451083805,13
+J Mcveigh,Sydney,1.442700582,13
+J Garlett,Melbourne,1.433642205,4
+T Walker,Adelaide,1.407602904,2
+H Himmelberg,GWS,1.397498088,9
+C Petracca,Melbourne,1.392979413,11
+J Howe,Collingwood,1.38182624,14
+J Stephenson,Collingwood,1.35618916,7
+N Wilson,Fremantle,1.350411867,9
+W Elliott,Collingwood,1.329744581,10
+G Hewett,Sydney,1.326611055,14
+H Grundy,Sydney,1.321318847,7
+B Acres,St Kilda,1.318537644,9
+C Daniel,Western Bulldogs,1.316020397,12
+J Short,Richmond,1.312295226,16
+J Patton,GWS,1.304158365,6
+T Miller,Gold Coast,1.256980717,16
+M Suckling,Western Bulldogs,1.22820084,8
+K Langford,Essendon,1.215036431,9
+G Smith,Geelong,1.204578159,1
+S Motlop,Port Adelaide,1.159729092,7
+D Parish,Essendon,1.15714578,9
+C Hooker,Essendon,1.087155997,13
+T Barrass,West Coast,1.083571456,6
+A Sexton,Gold Coast,1.07302787,2
+R Bonner,Port Adelaide,1.058646218,2
+B Goddard,Essendon,1.036321607,11
+B Gowers,Western Bulldogs,1.034425039,5
+L Dahlhaus,Western Bulldogs,1.019300628,10
+J Trengove,Western Bulldogs,0.975798409,8
+J Anderson,North Melbourne,0.964444497,12
+A Cerra,Fremantle,0.920517841,7
+S Grigg,Richmond,0.909466889,11
+W Milera,Adelaide,0.9067686,10
+D Jones,Port Adelaide,0.905883842,11
+B Sier,Collingwood,0.896167415,6
+J Sinclair,St Kilda,0.880900141,9
+D Astbury,Richmond,0.872057235,8
+R Tarrant,North Melbourne,0.867343931,9
+M Hutchings,West Coast,0.839027486,5
+J Castagna,Richmond,0.83896124,5
+A Tipungwuti,Essendon,0.83235373,8
+N Haynes,GWS,0.827892239,9
+A Saad,Essendon,0.823242366,11
+M Brown,Essendon,0.809678077,4
+A Christensen,Brisbane,0.809639848,8
+J Carlisle,St Kilda,0.783881408,8
+P Puopolo,Hawthorn,0.775258063,4
+J Hamling,Fremantle,0.762705935,7
+R Conca,Richmond,0.752394367,10
+Z Fisher,Carlton,0.745034871,6
+S Kerridge,Carlton,0.726949991,6
+J Worpel,Hawthorn,0.722455662,4
+J Webster,St Kilda,0.713105817,10
+J Harbrow,Gold Coast,0.70385698,13
+R Henderson,Hawthorn,0.694994324,13
+L Dunstan,St Kilda,0.674224694,8
+B Fritsch,Melbourne,0.659454628,8
+D Kent,Melbourne,0.655825092,2
+D Rampe,Sydney,0.655624844,10
+B Hill,Fremantle,0.636222933,6
+J Graham,Richmond,0.629464744,5
+A Tomlinson,GWS,0.614942688,6
+J Martin,Gold Coast,0.608585193,10
+S Atley,North Melbourne,0.595429897,4
+B Williams,Western Bulldogs,0.591291183,10
+P Davis,GWS,0.587554208,9
+J Lewis,Melbourne,0.585625801,16
+L Weller,Gold Coast,0.585160294,10
+A Mcgrath,Essendon,0.580914527,6
+D Tyson,Melbourne,0.579875175,7
+Z Tuohy,Geelong,0.57777599,18
+H Crozier,Western Bulldogs,0.57600081,9
+M Hannan,Melbourne,0.573474216,3
+B Sheppard,West Coast,0.547887587,11
+J Geary,St Kilda,0.529476009,11
+J Walker,Brisbane,0.528735101,6
+L Brown,Adelaide,0.516666494,7
+L Ryan,West Coast,0.515599662,4
+M Daw,North Melbourne,0.511461435,10
+T Doedee,Adelaide,0.506807671,13
+R Clarke,North Melbourne,0.505610869,7
+L Jones,Carlton,0.495920191,7
+H Ballantyne,Fremantle,0.485814676,3
+M Wallis,Western Bulldogs,0.464242038,16
+D Simpson,GWS,0.455205645,6
+J Cunico,Geelong,0.442399392,6
+D Gardiner,Brisbane,0.430491807,7
+A Hall,Gold Coast,0.426135134,4
+B Maynard,Collingwood,0.408540529,7
+A Francis,Essendon,0.401293339,4
+D Rich,Brisbane,0.39743402,10
+L Jetta,West Coast,0.397147848,2
+B Ellis,Richmond,0.395693524,8
+M Scharenberg,Collingwood,0.393929262,8
+Z Jones,Sydney,0.385424264,10
+C Mccarthy,Fremantle,0.382254756,3
+B Smith,Adelaide,0.378237998,1
+J Watts,Port Adelaide,0.373351807,4
+J Stewart,Essendon,0.370947188,4
+H Hartlett,Port Adelaide,0.36611265,3
+M Taberner,Fremantle,0.364859542,2
+D Howe,Hawthorn,0.364517982,9
+M Lecras,West Coast,0.362820448,5
+T Langdon,Collingwood,0.362019079,8
+R Marshall,St Kilda,0.35262427,4
+J Lonie,St Kilda,0.342160325,2
+J Gallucci,Adelaide,0.329280354,3
+S Savage,St Kilda,0.328579186,12
+A Aliir,Sydney,0.328518585,5
+M Blicavs,Geelong,0.327831162,10
+C Mayne,Collingwood,0.325999422,5
+B Hartung,North Melbourne,0.319596971,4
+K Turner,North Melbourne,0.31637907,2
+J Impey,Hawthorn,0.314039639,6
+B Houli,Richmond,0.299873816,7
+N Robertson,Brisbane,0.296016475,4
+T Varcoe,Collingwood,0.291495678,5
+N Newman,Sydney,0.276587483,4
+M Wright,Carlton,0.273000049,6
+S Hill,Fremantle,0.272937507,4
+J Henry,Geelong,0.266219349,4
+C Rayner,Brisbane,0.265121917,5
+R Abbott,Geelong,0.259343037,2
+L Taylor,Brisbane,0.257383393,8
+D Howard,Port Adelaide,0.252302792,8
+B Ainsworth,Gold Coast,0.244984668,6
+J Macmillan,North Melbourne,0.243873504,11
+C Cameron,Brisbane,0.241933133,6
+J Kelly,Adelaide,0.241778398,5
+D Lang,Carlton,0.233660065,1
+C Mills,Sydney,0.22900909,5
+S Seton,Carlton,0.220069158,7
+W Hayward,Sydney,0.214610631,4
+B Mihocek,Collingwood,0.213638833,4
+J Lever,Melbourne,0.206062162,4
+M Hibberd,Melbourne,0.205983516,7
+T Duman,Fremantle,0.194403597,4
+J Higgins,Richmond,0.193487985,7
+J Ceglar,Hawthorn,0.189700546,5
+Z Langdon,GWS,0.179593934,2
+J Murdoch,Geelong,0.175786449,5
+H Morrison,Hawthorn,0.168357496,5
+A Kennedy,GWS,0.165820682,5
+D Grimes,Richmond,0.155973941,6
+M Barlow,Gold Coast,0.155766678,2
+J Finlayson,GWS,0.154160898,5
+T Bugg,Melbourne,0.150502673,1
+C Mckenna,Essendon,0.148523336,9
+N Jetta,Melbourne,0.144499611,3
+D Butler,Richmond,0.141238338,1
+W Rioli,West Coast,0.132893923,5
+D Houston,Port Adelaide,0.132879409,11
+L Duggan,West Coast,0.130090169,6
+B Stratton,Hawthorn,0.129032656,4
+T Hickey,St Kilda,0.128263509,11
+O Florent,Sydney,0.126246352,8
+L Henderson,Geelong,0.120920374,3
+M Baguley,Essendon,0.119118359,3
+S Lloyd,Richmond,0.114850041,3
+D Talia,Adelaide,0.112471704,8
+A Naughton,Western Bulldogs,0.106560764,4
+J Simpkin,North Melbourne,0.104563644,7
+A Keath,Adelaide,0.102660863,2
+B Hardwick,Hawthorn,0.102214523,13
+P Wright,Gold Coast,0.100989234,2
+J Laverde,Essendon,0.100696643,2
+S Selwood,Geelong,0.100121554,6
+M Kennedy,Carlton,0.098131487,4
+N Smith,Sydney,0.09353717,4
+S Wright,North Melbourne,0.093219143,3
+T Papley,Sydney,0.092052492,7
+D Mackay,Adelaide,0.091460967,6
+T Miles,Hawthorn,0.090696386,1
+L Casboult,Carlton,0.081589989,2
+D Hannebery,Sydney,0.080885952,4
+J Newnes,St Kilda,0.079025057,8
+L Austin,St Kilda,0.07892554,5
+P Lipinski,Western Bulldogs,0.078793571,3
+S Rowe,Carlton,0.077820801,1
+J Lamb,Carlton,0.077727047,3
+R Knight,Adelaide,0.077450124,3
+J Daniher,Essendon,0.073502162,1
+H Mckay,Carlton,0.073235537,2
+C Marchbank,Carlton,0.071766184,4
+H Cunningham,Sydney,0.071699852,11
+B Vince,Melbourne,0.070296914,4
+M Rosa,Gold Coast,0.068945657,1
+K Mcintosh,Richmond,0.067426686,5
+S Murray,Collingwood,0.065539461,5
+M Redman,Essendon,0.064320338,1
+J Kolodjashnij,Geelong,0.063420664,7
+J Pittard,Port Adelaide,0.063006135,5
+R Burton,Hawthorn,0.055629623,4
+M Lobbe,Carlton,0.05506855,3
+W Brodie,Gold Coast,0.053146909,2
+D Wells,Collingwood,0.051000997,1
+A Corr,GWS,0.050012362,3
+S Darcy,Fremantle,0.048765443,2
+M Adams,Western Bulldogs,0.047827177,3
+L Plowman,Carlton,0.047063391,4
+S Reid,Sydney,0.041549628,1
+T Sheridan,Fremantle,0.041500288,4
+C Guthrie,Geelong,0.041428515,5
+J Daicos,Collingwood,0.040385085,1
+J Thurlow,Geelong,0.039283599,3
+T Marshall,Port Adelaide,0.035746831,1
+S Gibson,Adelaide,0.035566645,4
+C Spargo,Melbourne,0.034390607,4
+A Phillips,Carlton,0.034204871,1
+T English,Western Bulldogs,0.034038831,2
+T Boyd,Western Bulldogs,0.030661645,5
+O Mcinerney,Brisbane,0.029760702,3
+S Frost,Melbourne,0.029494816,2
+R Mathieson,Brisbane,0.029358841,3
+M Apeness,Fremantle,0.028929133,2
+N Holman,Gold Coast,0.027298083,10
+R Lester,Brisbane,0.024380402,5
+R Nyhuis,Fremantle,0.02417014,1
+E Willis,North Melbourne,0.023676178,2
+M Johnson,Fremantle,0.022457763,5
+B Crocker,Collingwood,0.021439361,1
+A Vandenberg,Melbourne,0.021175462,1
+E Richards,Western Bulldogs,0.02082892,4
+M Guelfi,Essendon,0.020448745,2
+C Zurhaar,North Melbourne,0.020043282,1
+D Macpherson,Gold Coast,0.019425081,2
+J Frawley,Hawthorn,0.018272606,8
+T Obrien,Hawthorn,0.017645159,1
+T Smith,Melbourne,0.017563397,2
+M Dea,Essendon,0.01733421,4
+A Brayshaw,Fremantle,0.016723527,2
+B Dale,Western Bulldogs,0.016463977,1
+J Weitering,Carlton,0.015931573,6
+T Clurey,Port Adelaide,0.015898884,5
+M Weller,St Kilda,0.014610199,2
+A Mullett,Carlton,0.014425788,2
+D Mcstay,Brisbane,0.014239651,1
+L Murphy,Adelaide,0.014089021,2
+B Stretch,Melbourne,0.013342583,1
+K Jack,Sydney,0.012877877,3
+D Tucker,Fremantle,0.012860475,3
+N Hrovat,North Melbourne,0.012547871,1
+I Soldo,Richmond,0.011507792,1
+R Schoenmakers,Hawthorn,0.010905722,1
+B Longer,St Kilda,0.01033091,2
+N Vardy,West Coast,0.009892906,2
+B Reid,Collingwood,0.00912298,1
+P Dow,Carlton,0.008981589,2
+D Mckenzie,St Kilda,0.008280321,2
+J Barrett,Brisbane,0.008226414,1
+L Dunn,Collingwood,0.007890351,2
+J Joyce,Gold Coast,0.007032883,6
+D Roberton,St Kilda,0.006584145,1
+K Brand,Hawthorn,0.006490822,1
+B Chee,West Coast,0.006301098,2
+B Mcniece,Essendon,0.004806854,1
+P Ambrose,Essendon,0.004683082,1
+A Black,Geelong,0.004408389,1
+J Neade,Port Adelaide,0.004127492,2
+T Duryea,Hawthorn,0.00393847,4
+H Marsh,Sydney,0.003692132,1
+R Griffen,GWS,0.003570827,4
+T Cole,West Coast,0.003114238,3
+Z Cordy,Western Bulldogs,0.002902207,4
+C Moore,Richmond,0.002670915,1
+J Trengove,Port Adelaide,0.002604815,1
+A Bonar,GWS,0.002469512,1
+A Otten,Adelaide,0.002367223,2
+D Moore,Collingwood,0.002307519,2
+J Roughead,Western Bulldogs,0.002102698,5
+L Fogarty,Geelong,0.002020276,3
+D Venables,West Coast,0.001946931,1
+D Lloyd,GWS,0.001746115,4
+D Mirra,Hawthorn,0.001498231,2
+Z Guthrie,Geelong,0.001471741,1
+J Bowes,Gold Coast,0.00120179,5
+C Nash,Hawthorn,0.001171853,1
+N Broad,Richmond,0.000914658,2
+J Dawson,Sydney,0.000480519,1
+T Colyer,Essendon,0.000244931,1
+B Long,St Kilda,0,1
+B Paton,St Kilda,0,1
+Z Bailey,Brisbane,0,1
+A Miles,Richmond,0,1
+B Rice,St Kilda,0,2
+B Banfield,Fremantle,0,3
+T Mccartin,Sydney,0,1
+B Matera,Fremantle,0,2
+B Lynch,Western Bulldogs,0,1
+R Bewick,Brisbane,0,1
+B White,St Kilda,0,2
+M Buntine,GWS,0,1
+M Williams,North Melbourne,0,5
+J Bews,Geelong,0,1
+J Bruce,St Kilda,0,1
+M Rischitelli,Gold Coast,0,2
+M Poholke,Adelaide,0,1
+J Green,Essendon,0,1
+J Harris,Melbourne,0,1
+M Honeychurch,Western Bulldogs,0,2
+M Hartley,Essendon,0,1
+J Hombsch,Port Adelaide,0,1
+J Hunt,Melbourne,0,1
+J Leslie,Gold Coast,0,1
+C Brown,Collingwood,0,2
+J Lienert,Port Adelaide,0,3
+J Lonergan,Gold Coast,0,2
+L Pierce,St Kilda,0,1
+L Obrien,Carlton,0,1
+L Jong,Western Bulldogs,0,3
+J Smith,Melbourne,0,1
+L Greenwood,Collingwood,0,2
+J Townsend,Richmond,0,1
+J Wagner,Melbourne,0,1
+J Waterman,West Coast,0,3
+K Cheney,Adelaide,0,2
+N Coffield,St Kilda,0,1
+N Freeman,St Kilda,0,1
+J Aish,Collingwood,0,3
+N Graham,Carlton,0,2
+S Switkowski,Fremantle,0,1
+C Byrne,Carlton,0,1
+C Chee,Gold Coast,0,1
+S Mayes,Brisbane,0,1
+C Oriordan,Sydney,0,2
+S Kersten,Fremantle,0,1
+C Pedersen,Melbourne,0,1
+C Polson,Carlton,0,1
+S Giro,Fremantle,0,1
+S Gilbert,St Kilda,0,2
+D Cuningham,Carlton,0,1
+S Day,Gold Coast,0,3
+R Thompson,Gold Coast,0,2
+R Fox,Sydney,0,1
+D Pearce,Fremantle,0,1
+K Kolodjashnij,Gold Coast,0,1
+D Towers,Sydney,0,2
+P Hanley,Gold Coast,0,1
+E Phillips,St Kilda,0,1
+E Wood,Western Bulldogs,0,4
+H Clark,St Kilda,0,1
+O Mcdonald,Melbourne,0,1
+H Perryman,GWS,0,2
+J Silvagni,Carlton,0,1
