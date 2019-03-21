@@ -1,0 +1,13 @@
+*.ppt
+*.pptx
+*.xlsx
+*.xls
+*.RData
+*.model
+*.json
+*.pickle
+*.gif
+*.sqlite
+*.rds
+*.ipynb_checkpoints
+*.json
